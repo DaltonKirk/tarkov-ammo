@@ -52,7 +52,7 @@ export default {
       }
     },
     selectOption: function(option) {
-      console.log(option);
+        console.log(option)
       this.searchTerm = option.Name;
       this.selected = true;
       this.selectedText = option.Name;
@@ -63,24 +63,23 @@ export default {
       this.selected = false;
       var that = this;
       setTimeout(function() {
-        console.log("blur timeout");
         that.$refs.search.focus();
         if (clear) {
             that.searchTerm = '';
             that.selectedText = '';
             that.selected = false;
+            that.filter()
         }
-      }, 0);
+      }, 100);
     },
     blur: function() {
-        console.log("blur");
       var that = this;
       setTimeout(function() {
         that.filteredOptions = []
         if (!that.selected && that.selectedText) {
             that.selected = true;
         }
-      }, 100);
+      }, 150);
     }
   }
 };

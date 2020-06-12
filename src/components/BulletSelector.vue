@@ -13,10 +13,10 @@
       </div>
       <BulletAttributeRow :bullet="bullet" :bullet-to-compare="bulletToCompare" property="FleshDamage" display-name="Flesh Damage"></BulletAttributeRow>
       <BulletAttributeRow :bullet="bullet" :bullet-to-compare="bulletToCompare" property="PenetrationPower" display-name="Penetration Power"></BulletAttributeRow>
-      <BulletAttributeRow :bullet="bullet" :bullet-to-compare="bulletToCompare" property="ArmorDamage" display-name="ArmorDamage"></BulletAttributeRow>
+      <BulletAttributeRow :bullet="bullet" :bullet-to-compare="bulletToCompare" property="ArmorDamage" display-name="Armor Damage"></BulletAttributeRow>
       <BulletAttributeRow :bullet="bullet" :bullet-to-compare="bulletToCompare" property="Accuracy" display-name="Accuracy"></BulletAttributeRow>
       <BulletAttributeRow :bullet="bullet" :bullet-to-compare="bulletToCompare" property="Recoil" display-name="Recoil"></BulletAttributeRow>
-      <BulletAttributeRow :bullet="bullet" :bullet-to-compare="bulletToCompare" property="FragmentationChance" display-name="FragmentationChance"></BulletAttributeRow>
+      <BulletAttributeRow :bullet="bullet" :bullet-to-compare="bulletToCompare" property="FragmentationChance" display-name="Fragmentation Chance"></BulletAttributeRow>
       <BulletAttributeRow :bullet="bullet" :bullet-to-compare="bulletToCompare" property="Armor1" display-name="Armor 1"></BulletAttributeRow>
       <BulletAttributeRow :bullet="bullet" :bullet-to-compare="bulletToCompare" property="Armor2" display-name="Armor 2"></BulletAttributeRow>
       <BulletAttributeRow :bullet="bullet" :bullet-to-compare="bulletToCompare" property="Armor3" display-name="Armor 3"></BulletAttributeRow>
@@ -44,6 +44,7 @@ export default {
   },
   methods: {
       setBullet: function (bullet) {
+          console.log(bullet)
           this.bullet = bullet;
           this.$emit('bulletChange', bullet)
       }

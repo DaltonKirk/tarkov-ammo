@@ -1952,6 +1952,7 @@ body {
   margin-top: 60px;
   margin: 60px auto;
   max-width: 720px;
+  min-height: 700px;
 }
 
 .grid {
