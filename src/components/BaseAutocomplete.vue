@@ -120,11 +120,15 @@ export default {
 .autocomplete-option {
   cursor: pointer;
   color: black;
+  &:hover {
+    background: lightgray;
+  }
 }
 .selected {
   display: flex;
   flex-direction: row;
   border: lightgrey solid 1px;
+  padding-left: 15px;
 }
 
 .clear-btn {
