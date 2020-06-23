@@ -129,6 +129,7 @@ export default {
   flex-direction: row;
   border: lightgrey solid 1px;
   padding-left: 15px;
+  overflow: hidden;
 }
 
 .clear-btn {
