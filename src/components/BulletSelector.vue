@@ -53,6 +53,10 @@ export default {
 </script>
 
 <style lang="scss">
+.bullet-selector {
+    background: white;
+    margin: 1px;
+}
 .bullet-data-row {
     display:grid;
     grid-template-columns: 90% 10%;
