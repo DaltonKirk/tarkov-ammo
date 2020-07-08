@@ -22,28 +22,7 @@ export default {
   data: function() {
     return {
       activeMapImage: "",
-      maps: [
-        {
-          name: "Customs",
-          imageUrl: require("@/assets/customs.png")
-        },
-        {
-          name: "Reserve",
-          imageUrl: require("@/assets/ReserveMap3d.jpg")
-        },
-        {
-          name: "Interchange",
-          imageUrl: require("@/assets/interchange.png")
-        },
-        {
-          name: "Factory",
-          imageUrl: require("@/assets/factory.png")
-        },
-        {
-          name: "Shoreline",
-          imageUrl: require("@/assets/shoreline.jpg")
-        }
-      ]
+      maps: []
     };
   },
   methods: {

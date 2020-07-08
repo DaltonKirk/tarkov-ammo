@@ -3,7 +3,7 @@
     <h1>Tarkov Ammo</h1>
     <div id="nav">
       <router-link to="/">Compare Ammo</router-link>
-      <router-link to="/maps">Maps</router-link>
+      <!-- <router-link to="/maps">Maps</router-link> -->
       <router-link to="/about">About</router-link>
     </div>
     <router-view />
