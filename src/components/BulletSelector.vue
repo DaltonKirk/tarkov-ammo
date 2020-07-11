@@ -44,7 +44,6 @@ export default {
   },
   methods: {
       setBullet: function (bullet) {
-          console.log(bullet)
           this.bullet = bullet;
           this.$emit('bulletChange', bullet)
       }
@@ -52,30 +51,13 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
+
 .bullet-selector {
     background: white;
-    margin: 1px;
+    //margin: 1px;
 }
-.bullet-data-row {
-    display:grid;
-    grid-template-columns: 90% 10%;
-    min-height: 40px;
-    line-height: 40px;
-    padding-left: 15px;
-    border: 1px solid grey;
-    div {
-        overflow: hidden;
-    }
-    div:last-child {
-        border-left: 1px solid grey;
-    }
-}
-@media only screen and (max-width: 600px) {
-.bullet-data-row {
-    grid-template-columns: 50% 50%;
-}
-}
+
 .data-row-label {
     text-align:  left;
 }

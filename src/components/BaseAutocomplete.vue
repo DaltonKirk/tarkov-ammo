@@ -52,7 +52,6 @@ export default {
       }
     },
     selectOption: function(option) {
-        console.log(option)
       this.searchTerm = option.Name;
       this.selected = true;
       this.selectedText = option.Name;
@@ -112,7 +111,6 @@ export default {
   overflow-y: auto;
   background: #fff;
   width: 100%;
-  border: 1px solid #ccc;
   border-top: 0;
   color: #000;
 }
@@ -125,9 +123,9 @@ export default {
   }
 }
 .selected {
+  height: 40px;
   display: flex;
   flex-direction: row;
-  border: lightgrey solid 1px;
   padding-left: 15px;
   overflow: hidden;
 }

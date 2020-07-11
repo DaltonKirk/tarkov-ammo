@@ -1,7 +1,6 @@
 <template>
   <div v-if="bullet" class="bullet-data-row" :class="comparisonClass">
-    <div class="data-row-label">{{ displayName }}</div>
-    <div>{{bullet[property]}}</div>
+    {{bullet[property]}}
   </div>
 </template>
 
@@ -53,14 +52,25 @@ export default {
 };
 </script>
 
-<style>
-div.worse {
-  background-color: #e44a00;
-  color: white;
+<style lang="scss" scoped>
+
+.bullet-data-row {
+    min-height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+    div {
+        overflow: hidden;
+    }
+    div:last-child {
+        border-left: 1px solid grey;
+    }
 }
 
-div.better {
-  background-color: #509050;
-  color: white;
+.worse {
+  color: #ff4629;
+}
+
+.better {
+  color: #91ff91;
 }
 </style>

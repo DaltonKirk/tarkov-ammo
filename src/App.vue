@@ -1,11 +1,11 @@
 <template>
   <div id="app">
     <h1>Tarkov Ammo</h1>
-    <div id="nav">
+    <!-- <div id="nav">
       <router-link to="/">Compare Ammo</router-link>
-      <!-- <router-link to="/maps">Maps</router-link> -->
+      <router-link to="/maps">Maps</router-link>
       <router-link to="/about">About</router-link>
-    </div>
+    </div> -->
     <router-view />
   </div>
 </template>
@@ -32,19 +32,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #fff;
-  margin-top: 60px;
-  margin: 60px auto;
+  margin: 20px auto;
   max-width: 1660px;
   min-height: 700px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  div {
-    height: 40px;
-    line-height: 40px;
-  }
 }
 
 #nav {
