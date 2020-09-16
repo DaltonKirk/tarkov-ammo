@@ -739,6 +739,22 @@ export default function bulletData() {
       },
       {
         "Caliber": "9x19mm Parabellum",
+        "Name": "9x19 mm QuakeMaker",
+        "FleshDamage": 85,
+        "PenetrationPower": 8,
+        "ArmorDamage": 22,
+        "Accuracy": 10,
+        "Recoil": 10,
+        "FragmentationChance": 10,
+        "Armor1": 6,
+        "Armor2": 1,
+        "Armor3": 0,
+        "Armor4": 0,
+        "Armor5": 0,
+        "Armor6": 0
+      },
+      {
+        "Caliber": "9x19mm Parabellum",
         "Name": "9x19 mm PSO gzh",
         "FleshDamage": 59,
         "PenetrationPower": 10,
@@ -747,7 +763,7 @@ export default function bulletData() {
         "Recoil": "",
         "FragmentationChance": 25,
         "Armor1": 6,
-        "Armor2": 1,
+        "Armor2": 2,
         "Armor3": 0,
         "Armor4": 0,
         "Armor5": 0,
@@ -813,9 +829,25 @@ export default function bulletData() {
         "Armor1": 6,
         "Armor2": 6,
         "Armor3": 6,
-        "Armor4": 3,
-        "Armor5": 1,
-        "Armor6": 0
+        "Armor4": 4,
+        "Armor5": 2,
+        "Armor6": 1
+      },
+      {
+        "Caliber": "9x19mm Parabellum",
+        "Name": "9x19 mm 7N31",
+        "FleshDamage": 52,
+        "PenetrationPower": 39,
+        "ArmorDamage": 53,
+        "Accuracy": 15,
+        "Recoil": 15,
+        "FragmentationChance": 5,
+        "Armor1": 6,
+        "Armor2": 6,
+        "Armor3": 6,
+        "Armor4": 5,
+        "Armor5": 4,
+        "Armor6": 3
       },
       {
         "Caliber": ".45 ACP",
@@ -835,6 +867,38 @@ export default function bulletData() {
       },
       {
         "Caliber": ".45 ACP",
+        "Name": ".45 ACP Hydra-Shok",
+        "FleshDamage": 95,
+        "PenetrationPower": 13,
+        "ArmorDamage": 30,
+        "Accuracy": "",
+        "Recoil": "",
+        "FragmentationChance": 50,
+        "Armor1": 6,
+        "Armor2": 3,
+        "Armor3": 0,
+        "Armor4": 0,
+        "Armor5": 0,
+        "Armor6": 0
+      },
+      {
+        "Caliber": ".45 ACP",
+        "Name": ".45 ACP Lasermatch FMJ",
+        "FleshDamage": 74,
+        "PenetrationPower": 18,
+        "ArmorDamage": 37,
+        "Accuracy": "",
+        "Recoil": "",
+        "FragmentationChance": 1,
+        "Armor1": 6,
+        "Armor2": 5,
+        "Armor3": 1,
+        "Armor4": 0,
+        "Armor5": 0,
+        "Armor6": 0
+      },
+      {
+        "Caliber": ".45 ACP",
         "Name": ".45 ACP FMJ",
         "FleshDamage": 72,
         "PenetrationPower": 19,
@@ -848,6 +912,22 @@ export default function bulletData() {
         "Armor4": 0,
         "Armor5": 0,
         "Armor6": 0
+      },
+      {
+        "Caliber": ".45 ACP",
+        "Name": ".45 ACP AP",
+        "FleshDamage": 70,
+        "PenetrationPower": 36,
+        "ArmorDamage": 43,
+        "Accuracy": -5,
+        "Recoil": 20,
+        "FragmentationChance": 1,
+        "Armor1": 6,
+        "Armor2": 6,
+        "Armor3": 6,
+        "Armor4": 5,
+        "Armor5": 3,
+        "Armor6": 2
       },
       {
         "Caliber": "9x21mm Gyurza",
@@ -894,8 +974,8 @@ export default function bulletData() {
         "Armor2": 6,
         "Armor3": 6,
         "Armor4": 4,
-        "Armor5": 1,
-        "Armor6": 1
+        "Armor5": 3,
+        "Armor6": 2
       },
       {
         "Caliber": "9x21mm Gyurza",
@@ -910,8 +990,8 @@ export default function bulletData() {
         "Armor2": 6,
         "Armor3": 6,
         "Armor4": 5,
-        "Armor5": 2,
-        "Armor6": 1
+        "Armor5": 4,
+        "Armor6": 3
       },
       {
         "Caliber": "5.7x28mm FN",
@@ -990,8 +1070,8 @@ export default function bulletData() {
         "Armor2": 6,
         "Armor3": 6,
         "Armor4": 3,
-        "Armor5": 1,
-        "Armor6": 1
+        "Armor5": 2,
+        "Armor6": 2
       },
       {
         "Caliber": "5.7x28mm FN",
@@ -1006,8 +1086,8 @@ export default function bulletData() {
         "Armor2": 6,
         "Armor3": 6,
         "Armor4": 4,
-        "Armor5": 2,
-        "Armor6": 1
+        "Armor5": 3,
+        "Armor6": 2
       },
       {
         "Caliber": "5.7x28mm FN",
@@ -1022,8 +1102,8 @@ export default function bulletData() {
         "Armor2": 6,
         "Armor3": 6,
         "Armor4": 5,
-        "Armor5": 3,
-        "Armor6": 1
+        "Armor5": 4,
+        "Armor6": 3
       },
       {
         "Caliber": "4.6x30mm HK",
@@ -1202,6 +1282,22 @@ export default function bulletData() {
         "Armor6": 0
       },
       {
+        "Caliber": ".366 TKM",
+        "Name": ".366 AP",
+        "FleshDamage": 90,
+        "PenetrationPower": 42,
+        "ArmorDamage": 60,
+        "Accuracy": -28,
+        "Recoil": 35,
+        "FragmentationChance": 1,
+        "Armor1": 6,
+        "Armor2": 6,
+        "Armor3": 6,
+        "Armor4": 6,
+        "Armor5": 5,
+        "Armor6": 4
+      },
+      {
         "Caliber": "5.45x39mm",
         "Name": "5.45x39 mm SP",
         "FleshDamage": 68,
@@ -1358,8 +1454,8 @@ export default function bulletData() {
         "Armor2": 6,
         "Armor3": 6,
         "Armor4": 5,
-        "Armor5": 3,
-        "Armor6": 1
+        "Armor5": 4,
+        "Armor6": 3
       },
       {
         "Caliber": "5.45x39mm",
@@ -1503,7 +1599,7 @@ export default function bulletData() {
         "Armor3": 6,
         "Armor4": 5,
         "Armor5": 4,
-        "Armor6": 2
+        "Armor6": 3
       },
       {
         "Caliber": "5.56x45mm NATO",
@@ -1519,7 +1615,7 @@ export default function bulletData() {
         "Armor3": 6,
         "Armor4": 6,
         "Armor5": 5,
-        "Armor6": 3
+        "Armor6": 4
       },
       {
         "Caliber": "5.56x45mm NATO",
@@ -1599,7 +1695,7 @@ export default function bulletData() {
         "Armor3": 6,
         "Armor4": 4,
         "Armor5": 3,
-        "Armor6": 1
+        "Armor6": 2
       },
       {
         "Caliber": "7.62x39mm",
@@ -1678,8 +1774,8 @@ export default function bulletData() {
         "Armor2": 6,
         "Armor3": 6,
         "Armor4": 6,
-        "Armor5": 4,
-        "Armor6": 3
+        "Armor5": 5,
+        "Armor6": 4
       },
       {
         "Caliber": "7.62x51mm NATO",
@@ -1705,6 +1801,22 @@ export default function bulletData() {
         "ArmorDamage": 83,
         "Accuracy": 3,
         "Recoil": 10,
+        "FragmentationChance": 13,
+        "Armor1": 6,
+        "Armor2": 6,
+        "Armor3": 6,
+        "Armor4": 6,
+        "Armor5": 6,
+        "Armor6": 6
+      },
+      {
+        "Caliber": "7.62x51mm NATO",
+        "Name": "7.62x51 mm M993",
+        "FleshDamage": 67,
+        "PenetrationPower": 70,
+        "ArmorDamage": 85,
+        "Accuracy": 5,
+        "Recoil": 8,
         "FragmentationChance": 13,
         "Armor1": 6,
         "Armor2": 6,
@@ -1856,6 +1968,22 @@ export default function bulletData() {
         "Armor4": 6,
         "Armor5": 5,
         "Armor6": 4
+      },
+      {
+        "Caliber": "40x46 mm",
+        "Name": "40x46 mm M576",
+        "FleshDamage": "15x140",
+        "PenetrationPower": 5,
+        "ArmorDamage": 95,
+        "Accuracy": "",
+        "Recoil": "",
+        "FragmentationChance": 0,
+        "Armor1": 3,
+        "Armor2": 3,
+        "Armor3": 3,
+        "Armor4": 3,
+        "Armor5": 3,
+        "Armor6": 3
       },
       {
         "Caliber": "StationaryWeapons",
