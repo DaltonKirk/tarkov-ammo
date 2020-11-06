@@ -1,6 +1,8 @@
 <template>
-  <div v-if="bullet" class="bullet-data-row" :class="comparisonClass">
-    {{bullet[property]}}
+  <div v-if="bullet" class="bullet-data-row">
+    <div :class="comparisonClass">{{ bullet[property] }}</div>
+    <div>{{ displayName }}</div>
+    <div :class="comparisonClassRight">{{ bulletToCompare[property] }}</div>
   </div>
 </template>
 
@@ -8,7 +10,7 @@
 export default {
   props: ["bullet", "bulletToCompare", "property", "displayName"],
   computed: {
-    comparisonClass: function() {
+    comparisonClass: function () {
       if (this.bullet && this.bulletToCompare) {
         var thisBulletProp = this.bullet[this.property];
         var compareBulletProp = this.bulletToCompare[this.property];
@@ -47,23 +49,37 @@ export default {
         }
       }
       return "";
-    }
-  }
+    },
+    comparisonClassRight: function () {
+      var otherClass = this.comparisonClass;
+      if (otherClass == '') {
+        return '';
+      }
+        else if (otherClass == 'better') {
+          return 'worse';
+        } else {
+          return 'better';
+        }
+      }
+    },
 };
 </script>
 
 <style lang="scss" scoped>
-
 .bullet-data-row {
-    min-height: 40px;
-    line-height: 40px;
-    padding-left: 15px;
-    div {
-        overflow: hidden;
-    }
-    div:last-child {
-        border-left: 1px solid grey;
-    }
+  display: flex;
+  justify-content: space-between;
+  min-height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+
+  div {
+    overflow: hidden;
+  }
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.5);
+  }
 }
 
 .worse {

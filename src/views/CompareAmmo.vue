@@ -1,30 +1,91 @@
 <template>
   <div class="bullet-comparer">
-    <div class="table-headers">
-      <div>Type</div>
-      <div>Flesh Damage</div>
-      <div>Pen Power</div>
-      <div>Armour Damage</div>
-      <div>Accuracy</div>
-      <div>Recoil</div>
-      <div>Fragmentation Chance</div>
-      <div>Armour 1</div>
-      <div>Armour 2</div>
-      <div>Armour 3</div>
-      <div>Armour 4</div>
-      <div>Armour 5</div>
-      <div>Armour 6</div>
+    <div class="bullet-selectors">
+      <BulletSelector
+        :bullets="bullets"
+        @bulletChange="bulletChangeLeft"
+        :bulletToCompare="bulletRight"
+      ></BulletSelector>
+      <BulletSelector
+        :bullets="bullets"
+        @bulletChange="bulletChangeRight"
+        :bulletToCompare="bulletLeft"
+      ></BulletSelector>
     </div>
-    <BulletSelector
-      :bullets="bullets"
-      @bulletChange="bulletChangeLeft"
-      :bulletToCompare="bulletRight"
-    ></BulletSelector>
-    <BulletSelector
-      :bullets="bullets"
-      @bulletChange="bulletChangeRight"
-      :bulletToCompare="bulletLeft"
-    ></BulletSelector>
+    <div>
+      <BulletAttributeRow
+        :bullet="bulletLeft"
+        :bullet-to-compare="bulletRight"
+        property="FleshDamage"
+        display-name="Flesh Damage"
+      ></BulletAttributeRow>
+      <BulletAttributeRow
+        :bullet="bulletLeft"
+        :bullet-to-compare="bulletRight"
+        property="PenetrationPower"
+        display-name="Penetration Power"
+      ></BulletAttributeRow>
+      <BulletAttributeRow
+        :bullet="bulletLeft"
+        :bullet-to-compare="bulletRight"
+        property="ArmorDamage"
+        display-name="Armor Damage"
+      ></BulletAttributeRow>
+      <BulletAttributeRow
+        :bullet="bulletLeft"
+        :bullet-to-compare="bulletRight"
+        property="Accuracy"
+        display-name="Accuracy"
+      ></BulletAttributeRow>
+      <BulletAttributeRow
+        :bullet="bulletLeft"
+        :bullet-to-compare="bulletRight"
+        property="Recoil"
+        display-name="Recoil"
+      ></BulletAttributeRow>
+      <BulletAttributeRow
+        :bullet="bulletLeft"
+        :bullet-to-compare="bulletRight"
+        property="FragmentationChance"
+        display-name="Fragmentation Chance"
+      ></BulletAttributeRow>
+      <BulletAttributeRow
+        :bullet="bulletLeft"
+        :bullet-to-compare="bulletRight"
+        property="Armor1"
+        display-name="Armor 1"
+      ></BulletAttributeRow>
+      <BulletAttributeRow
+        :bullet="bulletLeft"
+        :bullet-to-compare="bulletRight"
+        property="Armor2"
+        display-name="Armor 2"
+      ></BulletAttributeRow>
+      <BulletAttributeRow
+        :bullet="bulletLeft"
+        :bullet-to-compare="bulletRight"
+        property="Armor3"
+        display-name="Armor 3"
+      ></BulletAttributeRow>
+      <BulletAttributeRow
+        :bullet="bulletLeft"
+        :bullet-to-compare="bulletRight"
+        property="Armor4"
+        display-name="Armor 4"
+      ></BulletAttributeRow>
+      <BulletAttributeRow
+        :bullet="bulletLeft"
+        :bullet-to-compare="bulletRight"
+        property="Armor5"
+        display-name="Armor 5"
+      ></BulletAttributeRow>
+      <BulletAttributeRow
+        :bullet="bulletLeft"
+        :bullet-to-compare="bulletRight"
+        property="Armor6"
+        display-name="Armor 6"
+      ></BulletAttributeRow>
+    </div>
   </div>
 </template>
 
@@ -32,38 +93,37 @@
 // @ is an alias to /src
 import BulletSelector from "@/components/BulletSelector.vue";
 import bulletData from "@/data/bullet.js";
+import BulletAttributeRow from "@/components/BulletAttributeRow";
 
 export default {
   name: "CompareAmmo",
   components: {
-    BulletSelector
+    BulletSelector,
+    BulletAttributeRow,
   },
-  data: function() {
+  data: function () {
     return {
       bulletLeft: null,
       bulletRight: null,
-      bullets: []
+      bullets: [],
     };
   },
   methods: {
-    bulletChangeLeft: function(bullet) {
+    bulletChangeLeft: function (bullet) {
       this.bulletLeft = bullet;
     },
-    bulletChangeRight: function(bullet) {
+    bulletChangeRight: function (bullet) {
       this.bulletRight = bullet;
-    }
+    },
   },
-  mounted: function() {
+  mounted: function () {
     this.bullets = bulletData().bullets;
-  }
+  },
 };
 </script>
 
 <style lang="scss" scoped>
 .bullet-comparer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-
   div {
     height: 40px;
     line-height: 40px;
@@ -71,6 +131,19 @@ export default {
 
   max-width: 720px;
   margin: 0 auto;
+}
+
+.bullet-selectors {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  
+  & > div {
+    flex-basis: 49%;
+
+    @media only screen and (min-width: 640px) {
+    }
+  }
 }
 
 .table-headers {

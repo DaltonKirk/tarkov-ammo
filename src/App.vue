@@ -35,6 +35,7 @@ body {
   margin: 20px auto;
   max-width: 1660px;
   min-height: 700px;
+  font-size: 20px;
 }
 
 #nav {

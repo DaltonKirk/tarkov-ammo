@@ -96,7 +96,7 @@ export default {
   text-align: center;
   height: 40px;
   line-height: 40px;
-  font-size: 16px;
+  font-size: 20px;
   padding: 0;
   color: black;
 }
@@ -133,6 +133,6 @@ export default {
 .clear-btn {
   position: absolute;
   right: 5px;
-  top: 8px;
+  top: 6px;
 }
 </style>
