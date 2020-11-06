@@ -2,7 +2,7 @@ export default function bulletData() {
   return {
     bullets: [
       {
-        "Caliber": "12/70 shot",
+        "Caliber": "12x70mm",
         "Name": "12/70 5.25mm Buckshot",
         "FleshDamage": "8x37",
         "PenetrationPower": 1,
@@ -18,7 +18,7 @@ export default function bulletData() {
         "Armor6": 3
       },
       {
-        "Caliber": "12/70 shot",
+        "Caliber": "12x70mm",
         "Name": "12/70 8.5 mm 'Magnum' Buckshot",
         "FleshDamage": "8x50",
         "PenetrationPower": 2,
@@ -34,7 +34,7 @@ export default function bulletData() {
         "Armor6": 3
       },
       {
-        "Caliber": "12/70 shot",
+        "Caliber": "12x70mm",
         "Name": "12x70 6.5 mm 'Express' Buckshot",
         "FleshDamage": "9x35",
         "PenetrationPower": 3,
@@ -50,7 +50,7 @@ export default function bulletData() {
         "Armor6": 3
       },
       {
-        "Caliber": "12/70 shot",
+        "Caliber": "12x70mm",
         "Name": "12x70 7mm Buckshot",
         "FleshDamage": "8x39",
         "PenetrationPower": 3,
@@ -66,7 +66,7 @@ export default function bulletData() {
         "Armor6": 3
       },
       {
-        "Caliber": "12/70 shot",
+        "Caliber": "12x70mm",
         "Name": "12/70 Flechette",
         "FleshDamage": "8x25",
         "PenetrationPower": 31,
@@ -82,7 +82,7 @@ export default function bulletData() {
         "Armor6": 5
       },
       {
-        "Caliber": "12/70 slugs",
+        "Caliber": "12x70mm",
         "Name": "12x70 RIP",
         "FleshDamage": 265,
         "PenetrationPower": 0,
@@ -98,7 +98,7 @@ export default function bulletData() {
         "Armor6": 0
       },
       {
-        "Caliber": "12/70 slugs",
+        "Caliber": "12x70mm",
         "Name": "12/70 HP Slug 'SuperFormance'",
         "FleshDamage": 220,
         "PenetrationPower": 2,
@@ -114,7 +114,7 @@ export default function bulletData() {
         "Armor6": 0
       },
       {
-        "Caliber": "12/70 slugs",
+        "Caliber": "12x70mm",
         "Name": "12/70 Grizzly 40 Slug",
         "FleshDamage": 190,
         "PenetrationPower": 12,
@@ -130,7 +130,7 @@ export default function bulletData() {
         "Armor6": 0
       },
       {
-        "Caliber": "12/70 slugs",
+        "Caliber": "12x70mm",
         "Name": "12/70 HP Slug Copper Sabot Premier",
         "FleshDamage": 206,
         "PenetrationPower": 14,
@@ -146,7 +146,7 @@ export default function bulletData() {
         "Armor6": 0
       },
       {
-        "Caliber": "12/70 slugs",
+        "Caliber": "12x70mm",
         "Name": "12x70 Led slug",
         "FleshDamage": 167,
         "PenetrationPower": 15,
@@ -162,7 +162,7 @@ export default function bulletData() {
         "Armor6": 0
       },
       {
-        "Caliber": "12/70 slugs",
+        "Caliber": "12x70mm",
         "Name": "12/70 'Poleva-3' Slug",
         "FleshDamage": 140,
         "PenetrationPower": 17,
@@ -178,7 +178,7 @@ export default function bulletData() {
         "Armor6": 0
       },
       {
-        "Caliber": "12/70 slugs",
+        "Caliber": "12x70mm",
         "Name": "12/70 Dual Sabot Slug",
         "FleshDamage": "2x85",
         "PenetrationPower": 17,
@@ -194,7 +194,7 @@ export default function bulletData() {
         "Armor6": 0
       },
       {
-        "Caliber": "12/70 slugs",
+        "Caliber": "12x70mm",
         "Name": "12/70 FTX Custom LIte Slug",
         "FleshDamage": 183,
         "PenetrationPower": 20,
@@ -210,7 +210,7 @@ export default function bulletData() {
         "Armor6": 0
       },
       {
-        "Caliber": "12/70 slugs",
+        "Caliber": "12x70mm",
         "Name": "12/70 'Poleva-6u' Slug",
         "FleshDamage": 150,
         "PenetrationPower": 20,
@@ -226,7 +226,7 @@ export default function bulletData() {
         "Armor6": 0
       },
       {
-        "Caliber": "12/70 slugs",
+        "Caliber": "12x70mm",
         "Name": "12x70 shell with .50 BMG bullet",
         "FleshDamage": 197,
         "PenetrationPower": 26,
@@ -237,12 +237,12 @@ export default function bulletData() {
         "Armor1": 6,
         "Armor2": 6,
         "Armor3": 5,
-        "Armor4": 2,
-        "Armor5": 0,
+        "Armor4": 3,
+        "Armor5": 1,
         "Armor6": 0
       },
       {
-        "Caliber": "12/70 slugs",
+        "Caliber": "12x70mm",
         "Name": "12/70 AP-20 Slug",
         "FleshDamage": 164,
         "PenetrationPower": 37,
@@ -254,8 +254,8 @@ export default function bulletData() {
         "Armor2": 6,
         "Armor3": 6,
         "Armor4": 5,
-        "Armor5": 3,
-        "Armor6": 1
+        "Armor5": 4,
+        "Armor6": 3
       },
       {
         "Caliber": "20x70mm",
@@ -384,6 +384,70 @@ export default function bulletData() {
         "Armor4": 0,
         "Armor5": 0,
         "Armor6": 0
+      },
+      {
+        "Caliber": "23x75mm",
+        "Name": "23x75mm 'Star'",
+        "FleshDamage": 0,
+        "PenetrationPower": 0,
+        "ArmorDamage": 0,
+        "Accuracy": 0,
+        "Recoil": 0,
+        "FragmentationChance": 20,
+        "Armor1": 0,
+        "Armor2": 0,
+        "Armor3": 0,
+        "Armor4": 0,
+        "Armor5": 0,
+        "Armor6": 0
+      },
+      {
+        "Caliber": "23x75mm",
+        "Name": "23x75mm Shrapnel-25",
+        "FleshDamage": "8x78",
+        "PenetrationPower": 10,
+        "ArmorDamage": 20,
+        "Accuracy": 20,
+        "Recoil": 10,
+        "FragmentationChance": 0,
+        "Armor1": 6,
+        "Armor2": 4,
+        "Armor3": 3,
+        "Armor4": 3,
+        "Armor5": 3,
+        "Armor6": 3
+      },
+      {
+        "Caliber": "23x75mm",
+        "Name": "23x75mm Shrapnel 10",
+        "FleshDamage": "8x87",
+        "PenetrationPower": 11,
+        "ArmorDamage": 20,
+        "Accuracy": "",
+        "Recoil": "",
+        "FragmentationChance": 0,
+        "Armor1": 6,
+        "Armor2": 4,
+        "Armor3": 3,
+        "Armor4": 3,
+        "Armor5": 3,
+        "Armor6": 3
+      },
+      {
+        "Caliber": "23x75mm",
+        "Name": "23x75mm 'Barricade'",
+        "FleshDamage": 192,
+        "PenetrationPower": 39,
+        "ArmorDamage": 75,
+        "Accuracy": -5,
+        "Recoil": 25,
+        "FragmentationChance": 20,
+        "Armor1": 6,
+        "Armor2": 6,
+        "Armor3": 6,
+        "Armor4": 6,
+        "Armor5": 4,
+        "Armor6": 4
       },
       {
         "Caliber": "9x18mm Makarov",
@@ -613,12 +677,12 @@ export default function bulletData() {
         "Caliber": "7.62x25mm Tokarev",
         "Name": "7.62x25mm TT LRNPC",
         "FleshDamage": 66,
-        "PenetrationPower": 5,
+        "PenetrationPower": 7,
         "ArmorDamage": 27,
-        "Accuracy": "",
-        "Recoil": "",
+        "Accuracy": 10,
+        "Recoil": -10,
         "FragmentationChance": 35,
-        "Armor1": 3,
+        "Armor1": 5,
         "Armor2": 0,
         "Armor3": 0,
         "Armor4": 0,
@@ -629,12 +693,12 @@ export default function bulletData() {
         "Caliber": "7.62x25mm Tokarev",
         "Name": "7.62x25mm TT LRN",
         "FleshDamage": 64,
-        "PenetrationPower": 6,
+        "PenetrationPower": 8,
         "ArmorDamage": 28,
-        "Accuracy": "",
-        "Recoil": "",
+        "Accuracy": 5,
+        "Recoil": -5,
         "FragmentationChance": 35,
-        "Armor1": 3,
+        "Armor1": 5,
         "Armor2": 0,
         "Armor3": 0,
         "Armor4": 0,
@@ -645,13 +709,13 @@ export default function bulletData() {
         "Caliber": "7.62x25mm Tokarev",
         "Name": "7.62x25mm TT FMJ43",
         "FleshDamage": 60,
-        "PenetrationPower": 8,
+        "PenetrationPower": 11,
         "ArmorDamage": 29,
         "Accuracy": "",
         "Recoil": "",
         "FragmentationChance": 25,
-        "Armor1": 5,
-        "Armor2": 0,
+        "Armor1": 6,
+        "Armor2": 1,
         "Armor3": 0,
         "Armor4": 0,
         "Armor5": 0,
@@ -661,13 +725,13 @@ export default function bulletData() {
         "Caliber": "7.62x25mm Tokarev",
         "Name": "7.62x25mm TT AKBS",
         "FleshDamage": 58,
-        "PenetrationPower": 9,
+        "PenetrationPower": 12,
         "ArmorDamage": 32,
-        "Accuracy": "",
-        "Recoil": "",
+        "Accuracy": 15,
+        "Recoil": -15,
         "FragmentationChance": 25,
-        "Armor1": 5,
-        "Armor2": 1,
+        "Armor1": 6,
+        "Armor2": 2,
         "Armor3": 0,
         "Armor4": 0,
         "Armor5": 0,
@@ -677,13 +741,13 @@ export default function bulletData() {
         "Caliber": "7.62x25mm Tokarev",
         "Name": "7.62x25mm TT P gl",
         "FleshDamage": 58,
-        "PenetrationPower": 10,
+        "PenetrationPower": 14,
         "ArmorDamage": 32,
         "Accuracy": "",
         "Recoil": "",
         "FragmentationChance": 25,
         "Armor1": 6,
-        "Armor2": 1,
+        "Armor2": 3,
         "Armor3": 0,
         "Armor4": 0,
         "Armor5": 0,
@@ -692,14 +756,14 @@ export default function bulletData() {
       {
         "Caliber": "7.62x25mm Tokarev",
         "Name": "7.62x25mm TT PT gzh",
-        "FleshDamage": 60,
-        "PenetrationPower": 12,
+        "FleshDamage": 55,
+        "PenetrationPower": 18,
         "ArmorDamage": 34,
-        "Accuracy": -5,
+        "Accuracy": -10,
         "Recoil": "",
         "FragmentationChance": 17,
         "Armor1": 6,
-        "Armor2": 1,
+        "Armor2": 4,
         "Armor3": 0,
         "Armor4": 0,
         "Armor5": 0,
@@ -709,14 +773,14 @@ export default function bulletData() {
         "Caliber": "7.62x25mm Tokarev",
         "Name": "7.62x25mm TT Pst gzh",
         "FleshDamage": 50,
-        "PenetrationPower": 24,
+        "PenetrationPower": 25,
         "ArmorDamage": 36,
         "Accuracy": "",
         "Recoil": "",
         "FragmentationChance": 20,
         "Armor1": 6,
         "Armor2": 6,
-        "Armor3": 3,
+        "Armor3": 4,
         "Armor4": 1,
         "Armor5": 0,
         "Armor6": 0
@@ -1422,7 +1486,7 @@ export default function bulletData() {
         "Armor2": 6,
         "Armor3": 6,
         "Armor4": 3,
-        "Armor5": 1,
+        "Armor5": 2,
         "Armor6": 0
       },
       {
@@ -1438,8 +1502,8 @@ export default function bulletData() {
         "Armor2": 6,
         "Armor3": 6,
         "Armor4": 4,
-        "Armor5": 2,
-        "Armor6": 0
+        "Armor5": 3,
+        "Armor6": 1
       },
       {
         "Caliber": "5.45x39mm",
@@ -1972,13 +2036,13 @@ export default function bulletData() {
       {
         "Caliber": "40x46 mm",
         "Name": "40x46 mm M576",
-        "FleshDamage": "15x140",
+        "FleshDamage": "15x160",
         "PenetrationPower": 5,
         "ArmorDamage": 95,
         "Accuracy": "",
         "Recoil": "",
         "FragmentationChance": 0,
-        "Armor1": 3,
+        "Armor1": 5,
         "Armor2": 3,
         "Armor3": 3,
         "Armor4": 3,
