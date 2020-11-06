@@ -61,8 +61,6 @@ export default {
 .bullet-data-row {
   display: flex;
   justify-content: space-between;
-  min-height: 40px;
-  line-height: 40px;
   padding: 0 10px;
 
   div {
