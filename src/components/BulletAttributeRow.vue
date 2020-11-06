@@ -12,16 +12,8 @@ export default {
   computed: {
     comparisonClass: function () {
       if (this.bullet && this.bulletToCompare) {
-        var thisBulletProp = this.bullet[this.property];
-        var compareBulletProp = this.bulletToCompare[this.property];
-
-        if (!thisBulletProp) {
-          thisBulletProp = 0;
-        }
-
-        if (!compareBulletProp) {
-          compareBulletProp = 0;
-        }
+        var thisBulletProp = this.bullet[this.property] ? this.bullet[this.property] : 0;
+        var compareBulletProp = this.bulletToCompare[this.property] ? this.bulletToCompare[this.property] : 0;
 
         if (thisBulletProp.toString().indexOf("x") != -1) {
           var numbers = thisBulletProp.split("x");
