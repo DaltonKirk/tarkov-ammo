@@ -4,6 +4,7 @@
       :options="bullets"
       placeholder="Search ammo types"
       @optionSelected="setBullet"
+      @optionDeselected="clear"
     />
   </div>
 </template>
@@ -26,6 +27,10 @@ export default {
       this.bullet = bullet;
       this.$emit("bulletChange", bullet);
     },
+    clear: function () {
+      this.bullet = undefined;
+      this.$emit("bulletChange", undefined);
+    }
   },
 };
 </script>

@@ -18,6 +18,7 @@
         :bullet-to-compare="bulletRight"
         property="FleshDamage"
         display-name="Flesh Damage"
+        v-if="(bulletLeft && bulletRight)"
       ></BulletAttributeRow>
       <BulletAttributeRow
         :bullet="bulletLeft"
@@ -86,6 +87,7 @@
         display-name="Armor 6"
       ></BulletAttributeRow>
     </div>
+    <div v-if="!bulletLeft || !bulletRight">Select two ammo types to compare</div>
   </div>
 </template>
 
