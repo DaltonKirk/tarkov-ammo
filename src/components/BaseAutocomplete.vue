@@ -2,7 +2,7 @@
   <div class="autocomplete">
     <input
       ref="search"
-      v-if="(!selected)"
+      v-if="!selected"
       class="autocomplete-input"
       type="text"
       :placeholder="placeholder"
@@ -12,79 +12,74 @@
       @blur="blur"
     />
 
+    <button class="clear-btn" v-if="searchTerm" @click="deselect(true)">
+      <ClearIcon />
+    </button>
+
     <ul v-if="!selected" class="autocomplete-dropdown">
       <li
         v-for="option in filteredOptions"
         :key="option.id"
         class="autocomplete-option"
         @click="selectOption(option)"
-      >{{ option.Name }}</li>
+      >
+        {{ option.Name }}
+      </li>
     </ul>
-    <div v-if="selected" @click="deselect(false)" class="autocomplete-option selected">
-      {{selectedText}}
-      <div class="clear-btn" @click="deselect(true)">
-        <ClearIcon />
-      </div>
-    </div>
   </div>
 </template>
 
 <script>
-import ClearIcon from './ClearIcon'
+import ClearIcon from "./ClearIcon";
 export default {
   components: {
-    ClearIcon
+    ClearIcon,
   },
   props: ["options", "placeholder"],
-  data: function() {
+  data: function () {
     return {
       searchTerm: "",
       filteredOptions: [],
-      selected: false,
-      selectedText: ""
+      selectedText: "",
     };
   },
   methods: {
-    filter: function() {
+    filter: function () {
       if (!this.searchTerm) {
         this.filteredOptions = this.options;
       }
       if (this.options) {
         this.filteredOptions = this.options.filter(
-          e => e.Name.toLowerCase().indexOf(this.searchTerm.toLowerCase()) != -1
+          (e) =>
+            e.Name.toLowerCase().indexOf(this.searchTerm.toLowerCase()) != -1
         );
       }
     },
-    selectOption: function(option) {
+    selectOption: function (option) {
       this.searchTerm = option.Name;
-      this.selected = true;
       this.selectedText = option.Name;
       this.$emit("optionSelected", option);
     },
-    deselect: function(clear) {
+    deselect: function (clear) {
       this.$emit("optionDeselected");
-      this.selected = false;
       var that = this;
-      setTimeout(function() {
+      setTimeout(function () {
         that.$refs.search.focus();
         if (clear) {
-            that.searchTerm = '';
-            that.selectedText = '';
-            that.selected = false;
-            that.filter()
+          that.searchTerm = "";
+          that.selectedText = "";
+          that.selected = false;
+          that.filter();
         }
       }, 100);
     },
-    blur: function() {
+    blur: function () {
       var that = this;
-      setTimeout(function() {
-        that.filteredOptions = []
-        if (!that.selected && that.selectedText) {
-            that.selected = true;
-        }
+      setTimeout(function () {
+        that.filteredOptions = [];
       }, 150);
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -94,6 +89,7 @@ export default {
 }
 
 .autocomplete-input {
+  background: transparent;
   border: none;
   border: lightgrey solid 1px;
   width: 100%;
@@ -102,7 +98,10 @@ export default {
   line-height: 40px;
   font-size: 20px;
   padding: 0;
-  color: black;
+  color: #fff;
+  &::placeholder {
+    color: #fff;
+  }
 }
 
 .autocomplete-dropdown {
@@ -126,17 +125,16 @@ export default {
     background: lightgray;
   }
 }
-.selected {
-  height: 40px;
-  display: flex;
-  flex-direction: row;
-  padding-left: 15px;
-  overflow: hidden;
-}
 
 .clear-btn {
+  cursor: pointer;
   position: absolute;
-  right: 5px;
-  top: 6px;
+  right: 0px;
+  top: 7px;
+  background: transparent;
+  border: none;
+  svg {
+    fill: rgba(182, 182, 182, 0.8);
+  }
 }
 </style>

@@ -31,10 +31,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.bullet-selector {
-  background: white;
-}
-
 .data-row-label {
   text-align: left;
 }
