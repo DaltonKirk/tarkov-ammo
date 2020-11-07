@@ -68,7 +68,6 @@ export default {
         if (clear) {
           that.searchTerm = "";
           that.selectedText = "";
-          that.selected = false;
           that.filter();
         }
       }, 100);
