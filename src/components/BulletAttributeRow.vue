@@ -1,8 +1,8 @@
 <template>
-  <div v-if="bullet && bulletToCompare" class="bullet-data-row">
-    <div :class="comparisonClass">{{ bullet[this.property] ? bullet[this.property] : 0 }}</div>
+  <div v-if="bullet && bulletToCompare" class="bullet-data-row" :class="comparisonClass">
+    <div>{{ bullet[this.property] ? bullet[this.property] : 0 }}</div>
     <div>{{ displayName }}</div>
-    <div :class="comparisonClassRight">{{ bulletToCompare[this.property] ? bulletToCompare[this.property] : 0 }}</div>
+    <div>{{ bulletToCompare[this.property] ? bulletToCompare[this.property] : 0 }}</div>
   </div>
 </template>
 
@@ -62,7 +62,7 @@ export default {
   display: flex;
   justify-content: space-between;
   padding: 0 10px;
-
+  background: #786546;
   div {
     overflow: hidden;
   }
@@ -73,10 +73,10 @@ export default {
 }
 
 .worse {
-  color: #ff4629;
+  background: linear-gradient(90deg, rgba(255,70,41,0.5) 0%, rgba(145,255,145,0.5) 100%);
 }
 
 .better {
-  color: #91ff91;
+  background: linear-gradient(90deg, rgba(145,255,145,0.5) 0%, rgba(255,70,41,0.5) 100%);
 }
 </style>
