@@ -140,16 +140,6 @@ export default {
   
   & > div {
     flex-basis: 49%;
-
-    @media only screen and (min-width: 640px) {
-    }
-  }
-}
-
-.table-headers {
-  div {
-    overflow: hidden;
-    text-align: left;
   }
 }
 </style>
