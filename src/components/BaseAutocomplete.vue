@@ -23,14 +23,18 @@
     <div v-if="selected" @click="deselect(false)" class="autocomplete-option selected">
       {{selectedText}}
       <div class="clear-btn" @click="deselect(true)">
-        <img src="../assets/backspace-24px.svg">
+        <ClearIcon />
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import ClearIcon from './ClearIcon'
 export default {
+  components: {
+    ClearIcon
+  },
   props: ["options", "placeholder"],
   data: function() {
     return {
