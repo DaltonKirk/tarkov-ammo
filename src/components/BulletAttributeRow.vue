@@ -1,8 +1,8 @@
 <template>
   <div v-if="bullet" class="bullet-data-row">
-    <div :class="comparisonClass">{{ bullet[property] }}</div>
+    <div :class="comparisonClass">{{ bullet[this.property] ? bullet[this.property] : 0 }}</div>
     <div>{{ displayName }}</div>
-    <div :class="comparisonClassRight">{{ bulletToCompare[property] }}</div>
+    <div :class="comparisonClassRight">{{ bulletToCompare[this.property] ? bulletToCompare[this.property] : 0 }}</div>
   </div>
 </template>
 

@@ -90,7 +90,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
 import BulletSelector from "@/components/BulletSelector.vue";
 import bulletData from "@/data/bullet.js";
 import BulletAttributeRow from "@/components/BulletAttributeRow";
