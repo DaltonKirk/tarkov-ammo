@@ -15,7 +15,7 @@
       <ClearIcon />
     </button>
 
-    <ul v-if="!selected" class="autocomplete-dropdown">
+    <ul class="autocomplete-dropdown">
       <li
         v-for="option in filteredOptions"
         :key="option.id"
