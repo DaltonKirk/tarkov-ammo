@@ -2,7 +2,6 @@
   <div class="autocomplete">
     <input
       ref="search"
-      v-if="!selected"
       class="autocomplete-input"
       type="text"
       :placeholder="placeholder"
