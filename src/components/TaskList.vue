@@ -45,19 +45,20 @@ export default {
   border: 1px solid grey;
   padding: 10px;
 
-  &--completed {
-    button {
-      background: rgba(145, 255, 145, 0.5);
-      color: white;
-    }
-  }
-
   button {
+    background: #fff;
     padding: 20px;
     min-width: 150px;
 
     font-size: 1rem;
     border: none;
+  }
+
+    &--completed {
+    button {
+      background: rgba(145, 255, 145, 0.5);
+      color: white;
+    }
   }
 }
 </style>
