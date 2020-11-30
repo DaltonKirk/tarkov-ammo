@@ -1,1006 +1,1247 @@
 export default function bulletData() {
-    return {
-        tasks: [
-            {
-                "title": "Debut",
-                "dealer": "Prapor",
-                "completed": false
-            },
-            {
-                "title": "Checking",
-                "dealer": "Prapor",
-                "completed": false
-            },
-            {
-                "title": "Shootout picnic",
-                "dealer": "Prapor",
-                "completed": false
-            },
-            {
-                "title": "Delivery from the past",
-                "dealer": "Prapor",
-                "completed": false
-            },
-            {
-                "title": "BP depot",
-                "dealer": "Prapor",
-                "completed": false
-            },
-            {
-                "title": "The bunker - Part 1",
-                "dealer": "Prapor",
-                "completed": false
-            },
-            {
-                "title": "The bunker - Part 2",
-                "dealer": "Prapor",
-                "completed": false
-            },
-            {
-                "title": "Bad rep evidence",
-                "dealer": "Prapor",
-                "completed": false
-            },
-            {
-                "title": "Ice cream cones",
-                "dealer": "Prapor",
-                "completed": false
-            },
-            {
-                "title": "Postman Pat - Part 1",
-                "dealer": "Prapor",
-                "completed": false
-            },
-            {
-                "title": "Shaking up teller",
-                "dealer": "Prapor",
-                "completed": false
-            },
-            {
-                "title": "The Punisher - Part 1",
-                "dealer": "Prapor",
-                "completed": false
-            },
-            {
-                "title": "The Punisher - Part 2",
-                "dealer": "Prapor",
-                "completed": false
-            },
-            {
-                "title": "The Punisher - Part 3",
-                "dealer": "Prapor",
-                "completed": false
-            },
-            {
-                "title": "The Punisher - Part 4",
-                "dealer": "Prapor",
-                "completed": false
-            },
-            {
-                "title": "The Punisher - Part 5",
-                "dealer": "Prapor",
-                "completed": false
-            },
-            {
-                "title": "The Punisher - Part 6",
-                "dealer": "Prapor",
-                "completed": false
-            },
-            {
-                "title": "Anesthesia",
-                "dealer": "Prapor",
-                "completed": false
-            },
-            {
-                "title": "Grenadier",
-                "dealer": "Prapor",
-                "completed": false
-            },
-            {
-                "title": "Insomnia",
-                "dealer": "Prapor",
-                "completed": false
-            },
-            {
-                "title": "Test drive - Part 1",
-                "dealer": "Prapor",
-                "completed": false
-            },
-            {
-                "title": "Perfect mediator",
-                "dealer": "Prapor",
-                "completed": false
-            },
-            {
-                "title": "Polikhim hobo",
-                "dealer": "Prapor",
-                "completed": false
-            },
-            {
-                "title": "Regulated materials",
-                "dealer": "Prapor",
-                "completed": false
-            },
-            {
-                "title": "Big customer",
-                "dealer": "Prapor",
-                "completed": false
-            },
-            {
-                "title": "No offence",
-                "dealer": "Prapor",
-                "completed": false
-            },
-            {
-                "title": "Shortage",
-                "dealer": "Therapist",
-                "completed": false
-            },
-            {
-                "title": "Operation Aquarius - Part 1",
-                "dealer": "Therapist",
-                "completed": false
-            },
-            {
-                "title": "Operation Aquarius - Part 2",
-                "dealer": "Therapist",
-                "completed": false
-            },
-            {
-                "title": "Sanitary Standards - Part 1",
-                "dealer": "Therapist",
-                "completed": false
-            },
-            {
-                "title": "Sanitary Standards - Part 2",
-                "dealer": "Therapist",
-                "completed": false
-            },
-            {
-                "title": "Painkiller",
-                "dealer": "Therapist",
-                "completed": false
-            },
-            {
-                "title": "Pharmacist",
-                "dealer": "Therapist",
-                "completed": false
-            },
-            {
-                "title": "Car repair",
-                "dealer": "Therapist",
-                "completed": false
-            },
-            {
-                "title": "Hippocratic Vow",
-                "dealer": "Therapist",
-                "completed": false
-            },
-            {
-                "title": "Supply plans",
-                "dealer": "Therapist",
-                "completed": false
-            },
-            {
-                "title": "Health Care Privacy - Part 1",
-                "dealer": "Therapist",
-                "completed": false
-            },
-            {
-                "title": "Health Care Privacy - Part 2",
-                "dealer": "Therapist",
-                "completed": false
-            },
-            {
-                "title": "Health Care Privacy - Part 3",
-                "dealer": "Therapist",
-                "completed": false
-            },
-            {
-                "title": "An apple a day - keeps the doctor away",
-                "dealer": "Therapist",
-                "completed": false
-            },
-            {
-                "title": "Health Care Privacy - Part 4",
-                "dealer": "Therapist",
-                "completed": false
-            },
-            {
-                "title": "Athlete",
-                "dealer": "Therapist",
-                "completed": false
-            },
-            {
-                "title": "Private clinic",
-                "dealer": "Therapist",
-                "completed": false
-            },
-            {
-                "title": "Health Care Privacy - Part 5",
-                "dealer": "Therapist",
-                "completed": false
-            },
-            {
-                "title": "Decontamination service",
-                "dealer": "Therapist",
-                "completed": false
-            },
-            {
-                "title": "General wares",
-                "dealer": "Therapist",
-                "completed": false
-            },
-            {
-                "title": "Colleagues - Part 1",
-                "dealer": "Therapist",
-                "completed": false
-            },
-            {
-                "title": "Colleagues - Part 2",
-                "dealer": "Therapist",
-                "completed": false
-            },
-            {
-                "title": "Colleagues - Part 3",
-                "dealer": "Therapist",
-                "completed": false
-            },
-            {
-                "title": "Postman Pat - Part 2",
-                "dealer": "Therapist",
-                "completed": false
-            },
-            {
-                "title": "Out of curiosity",
-                "dealer": "Therapist",
-                "completed": false
-            },
-            {
-                "title": "Trust regain",
-                "dealer": "Therapist",
-                "completed": false
-            },
-            {
-                "title": "Supplier",
-                "dealer": "Skier",
-                "completed": false
-            },
-            {
-                "title": "The Extortionist",
-                "dealer": "Skier",
-                "completed": false
-            },
-            {
-                "title": "Stirrup",
-                "dealer": "Skier",
-                "completed": false
-            },
-            {
-                "title": "What's on the flash drive?",
-                "dealer": "Skier",
-                "completed": false
-            },
-            {
-                "title": "Golden swag",
-                "dealer": "Skier",
-                "completed": false
-            },
-            {
-                "title": "Chemical - Part 1",
-                "dealer": "Skier",
-                "completed": false
-            },
-            {
-                "title": "Chemical - Part 2",
-                "dealer": "Skier",
-                "completed": false
-            },
-            {
-                "title": "Chemical - Part 3",
-                "dealer": "Skier",
-                "completed": false
-            },
-            {
-                "title": "Chemical - Part 4",
-                "dealer": "Skier",
-                "completed": false
-            },
-            {
-                "title": "Loyalty buyout",
-                "dealer": "Skier",
-                "completed": false
-            },
-            {
-                "title": "'Vitamins' - Part 1",
-                "dealer": "Skier",
-                "completed": false
-            },
-            {
-                "title": "'Vitamins' - Part 2",
-                "dealer": "Skier",
-                "completed": false
-            },
-            {
-                "title": "Friend from the West - Part 1",
-                "dealer": "Skier",
-                "completed": false
-            },
-            {
-                "title": "Friend from the West - Part 2",
-                "dealer": "Skier",
-                "completed": false
-            },
-            {
-                "title": "Informed means armed",
-                "dealer": "Skier",
-                "completed": false
-            },
-            {
-                "title": "Chumming",
-                "dealer": "Skier",
-                "completed": false
-            },
-            {
-                "title": "Silent caliber",
-                "dealer": "Skier",
-                "completed": false
-            },
-            {
-                "title": "Bullshit",
-                "dealer": "Skier",
-                "completed": false
-            },
-            {
-                "title": "Setup",
-                "dealer": "Skier",
-                "completed": false
-            },
-            {
-                "title": "Flint",
-                "dealer": "Skier",
-                "completed": false
-            },
-            {
-                "title": "Lend lease - Part 1",
-                "dealer": "Skier",
-                "completed": false
-            },
-            {
-                "title": "Kind of sabotage",
-                "dealer": "Skier",
-                "completed": false
-            },
-            {
-                "title": "Rigged game",
-                "dealer": "Skier",
-                "completed": false
-            },
-            {
-                "title": "Fishing Gear",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "Tigr Safari",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "Scrap Metal",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "Eagle Eye",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "Humanitarian Supplies",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "The Cult - Part 1",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "The Cult - Part 2",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "Spa Tour - Part 1",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "Spa Tour - Part 2",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "Spa Tour - Part 3",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "Spa Tour - Part 4",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "Spa Tour - Part 5",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "Spa Tour - Part 6",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "Spa Tour - Part 7",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "Cargo X - Part 1",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "Cargo X - Part 2",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "Cargo X - Part 3",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "Wet Job - Part 1",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "Wet Job - Part 2",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "Wet Job - Part 3",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "Wet Job - Part 4",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "Wet Job - Part 5",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "Mentor",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "Wet Job - Part 6",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "The guide",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "Samples",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "TerraGroup employee",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "Lend lease - Part 2",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "Peacekeeping mission",
-                "dealer": "Peacekeeper",
-                "completed": false
-            },
-            {
-                "title": "Introduction",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Gunsmith - Part 1",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Gunsmith - Part 2",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Gunsmith - Part 3",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Gunsmith - Part 4",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Gunsmith - Part 5",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Gunsmith - Part 6",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Gunsmith - Part 7",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Gunsmith - Part 8",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Gunsmith - Part 9",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Gunsmith - Part 10",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Gunsmith - Part 11",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Gunsmith - Part 12",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Gunsmith - Part 13",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Gunsmith - Part 14",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Gunsmith - Part 15",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Gunsmith - Part 16",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Signal - Part 1",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Insider",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Signal - Part 2",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Scout",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Signal - Part 3",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Signal - Part 4",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Farming - Part 1",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Farming - Part 2",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Bad habit",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Farming - Part 3",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Farming - Part 4",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Psycho Sniper",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "A Shooter Born in Heaven",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Fertilizers",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Import",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "The chemistry closet",
-                "dealer": "Mechanic",
-                "completed": false
-            },
-            {
-                "title": "Only business",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "Make ULTRA Great Again",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "Big sale",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "The Blood of War - Part 1",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "Dressed to kill",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "Gratitude",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "Hot delivery",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "Scavenger",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "Sales Night",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "Database - Part 1",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "Database - Part 2",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "Minibus",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "Sew it good - Part 1",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "The Blood of War - Part 2",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "The Blood of War - Part 3",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "Living high is not a crime - Part 2",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "Sew it good - Part 2",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "The key to success",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "No fuss needed",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "The stylish one",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "Supervisor",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "Sew it good - Part 3",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "Living high is not a crime - Part 1",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "Sew it good - Part 4",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "Charisma brings success",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "Textile - Part 1",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "Textile - Part 2",
-                "dealer": "Ragman",
-                "completed": false
-            },
-            {
-                "title": "Acquaintance",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "The survivalist path - Unprotected, but dangerous",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "The survivalist path - Thrifty",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "The survivalist path - Zhivchik",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "The survivalist path - Wounded beast",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "The survivalist path - Tough guy",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "Courtesy visit",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "Nostalgia",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "The survivalist path - Cold blooded",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "The survivalist path - Junkie",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "The survivalist path - Combat medic",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "Ambulance",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "Huntsman path - Secured perimeter",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "Reserv",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "Huntsman path - Woods cleaning",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "Huntsman path - Controller",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "Huntsman path - Evil watchman",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "Fishing place",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "Huntsman path - The trophy",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "Huntsman path - Justice",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "Huntsman path - Sell-out",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "Huntsman path - Woods keeper",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "Hunting trip",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "Huntsman path - Eraser - Part 1",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "Huntsman path - Eraser - Part 2",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "'The Tarkov shooter' - Part 1",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "'The Tarkov shooter' - Part 2",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "'The Tarkov shooter' - Part 3",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "'The Tarkov shooter' - Part 4",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "'The Tarkov shooter' - Part 5",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "'The Tarkov shooter' - Part 6",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "'The Tarkov shooter' - Part 7",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "'The Tarkov shooter' - Part 8",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "Shady business",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "Huntsman path - Sadist",
-                "dealer": "Jaeger",
-                "completed": false
-            },
-            {
-                "title": "Collector",
-                "dealer": "Fence",
-                "completed": false
-            }
-        ]
-    }
+  return {
+    tasks: [
+      {
+        title: 'Debut',
+        dealer: 'Prapor',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Debut',
+      },
+      {
+        title: 'Checking',
+        dealer: 'Prapor',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Checking',
+      },
+      {
+        title: 'Shootout picnic',
+        dealer: 'Prapor',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Shootout_picnic',
+      },
+      {
+        title: 'Delivery from the past',
+        dealer: 'Prapor',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Delivery_from_the_past',
+      },
+      {
+        title: 'BP depot',
+        dealer: 'Prapor',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/BP_depot',
+      },
+      {
+        title: 'The bunker - Part 1',
+        dealer: 'Prapor',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/The_bunker_-_Part_1',
+      },
+      {
+        title: 'The bunker - Part 2',
+        dealer: 'Prapor',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/The_bunker_-_Part_2',
+      },
+      {
+        title: 'Bad rep evidence',
+        dealer: 'Prapor',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Bad_rep_evidence',
+      },
+      {
+        title: 'Ice cream cones',
+        dealer: 'Prapor',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Ice_cream_cones',
+      },
+      {
+        title: 'Postman Pat - Part 1',
+        dealer: 'Prapor',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Postman_Pat_-_Part_1',
+      },
+      {
+        title: 'Shaking up teller',
+        dealer: 'Prapor',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Shaking_up_teller',
+      },
+      {
+        title: 'The Punisher - Part 1',
+        dealer: 'Prapor',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/The_Punisher_-_Part_1',
+      },
+      {
+        title: 'The Punisher - Part 2',
+        dealer: 'Prapor',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/The_Punisher_-_Part_2',
+      },
+      {
+        title: 'The Punisher - Part 3',
+        dealer: 'Prapor',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/The_Punisher_-_Part_3',
+      },
+      {
+        title: 'The Punisher - Part 4',
+        dealer: 'Prapor',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/The_Punisher_-_Part_4',
+      },
+      {
+        title: 'The Punisher - Part 5',
+        dealer: 'Prapor',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/The_Punisher_-_Part_5',
+      },
+      {
+        title: 'The Punisher - Part 6',
+        dealer: 'Prapor',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/The_Punisher_-_Part_6',
+      },
+      {
+        title: 'Anesthesia',
+        dealer: 'Prapor',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Anesthesia',
+      },
+      {
+        title: 'Grenadier',
+        dealer: 'Prapor',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Grenadier',
+      },
+      {
+        title: 'Insomnia',
+        dealer: 'Prapor',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Insomnia',
+      },
+      {
+        title: 'Test drive - Part 1',
+        dealer: 'Prapor',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Test_drive_-_Part_1',
+      },
+      {
+        title: 'Perfect mediator',
+        dealer: 'Prapor',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Perfect_mediator',
+      },
+      {
+        title: 'Polikhim hobo',
+        dealer: 'Prapor',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Polikhim_hobo',
+      },
+      {
+        title: 'Regulated materials',
+        dealer: 'Prapor',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Regulated_materials',
+      },
+      {
+        title: 'Big customer',
+        dealer: 'Prapor',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Big_customer',
+      },
+      {
+        title: 'No offence',
+        dealer: 'Prapor',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/No_offence',
+      },
+      {
+        title: 'Shortage',
+        dealer: 'Therapist',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Shortage',
+      },
+      {
+        title: 'Operation Aquarius - Part 1',
+        dealer: 'Therapist',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/Operation_Aquarius_-_Part_1',
+      },
+      {
+        title: 'Operation Aquarius - Part 2',
+        dealer: 'Therapist',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/Operation_Aquarius_-_Part_2',
+      },
+      {
+        title: 'Sanitary Standards - Part 1',
+        dealer: 'Therapist',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/Sanitary_Standards_-_Part_1',
+      },
+      {
+        title: 'Sanitary Standards - Part 2',
+        dealer: 'Therapist',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/Sanitary_Standards_-_Part_2',
+      },
+      {
+        title: 'Painkiller',
+        dealer: 'Therapist',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Painkiller',
+      },
+      {
+        title: 'Pharmacist',
+        dealer: 'Therapist',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Pharmacist',
+      },
+      {
+        title: 'Car repair',
+        dealer: 'Therapist',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Car_repair',
+      },
+      {
+        title: 'Hippocratic Vow',
+        dealer: 'Therapist',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Hippocratic_Vow',
+      },
+      {
+        title: 'Supply plans',
+        dealer: 'Therapist',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Supply_plans',
+      },
+      {
+        title: 'Health Care Privacy - Part 1',
+        dealer: 'Therapist',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/Health_Care_Privacy_-_Part_1',
+      },
+      {
+        title: 'Health Care Privacy - Part 2',
+        dealer: 'Therapist',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/Health_Care_Privacy_-_Part_2',
+      },
+      {
+        title: 'Health Care Privacy - Part 3',
+        dealer: 'Therapist',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/Health_Care_Privacy_-_Part_3',
+      },
+      {
+        title: 'An apple a day - keeps the doctor away',
+        dealer: 'Therapist',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/An_apple_a_day_-_keeps_the_doctor_away',
+      },
+      {
+        title: 'Health Care Privacy - Part 4',
+        dealer: 'Therapist',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/Health_Care_Privacy_-_Part_4',
+      },
+      {
+        title: 'Athlete',
+        dealer: 'Therapist',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/athlete',
+      },
+      {
+        title: 'Private clinic',
+        dealer: 'Therapist',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/private_clinic',
+      },
+      {
+        title: 'Health Care Privacy - Part 5',
+        dealer: 'Therapist',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/Health_Care_Privacy_-_Part_5',
+      },
+      {
+        title: 'Decontamination service',
+        dealer: 'Therapist',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/decontamination_service',
+      },
+      {
+        title: 'General wares',
+        dealer: 'Therapist',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/general_wares',
+      },
+      {
+        title: 'Colleagues - Part 1',
+        dealer: 'Therapist',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Colleagues_-_Part_1',
+      },
+      {
+        title: 'Colleagues - Part 2',
+        dealer: 'Therapist',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Colleagues_-_Part_2',
+      },
+      {
+        title: 'Colleagues - Part 3',
+        dealer: 'Therapist',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Colleagues_-_Part_3',
+      },
+      {
+        title: 'Postman Pat - Part 2',
+        dealer: 'Therapist',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Postman_Pat_-_Part_2',
+      },
+      {
+        title: 'Out of curiosity',
+        dealer: 'Therapist',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Out_of_curiosity',
+      },
+      {
+        title: 'Trust regain',
+        dealer: 'Therapist',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/trust_regain',
+      },
+      {
+        title: 'Supplier',
+        dealer: 'Skier',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/supplier',
+      },
+      {
+        title: 'The Extortionist',
+        dealer: 'Skier',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/The_Extortionist',
+      },
+      {
+        title: 'Stirrup',
+        dealer: 'Skier',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/The_Extortionist',
+      },
+      {
+        title: "What's on the flash drive?",
+        dealer: 'Skier',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Stirrup',
+      },
+      {
+        title: 'Golden swag',
+        dealer: 'Skier',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Golden_swag',
+      },
+      {
+        title: 'Chemical - Part 1',
+        dealer: 'Skier',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Chemical_-_Part_1',
+      },
+      {
+        title: 'Chemical - Part 2',
+        dealer: 'Skier',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Chemical_-_Part_2',
+      },
+      {
+        title: 'Chemical - Part 3',
+        dealer: 'Skier',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Chemical_-_Part_3',
+      },
+      {
+        title: 'Chemical - Part 4',
+        dealer: 'Skier',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Chemical_-_Part_4',
+      },
+      {
+        title: 'Loyalty buyout',
+        dealer: 'Skier',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Loyalty_buyout',
+      },
+      {
+        title: "'Vitamins' - Part 1",
+        dealer: 'Skier',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/%22Vitamins%22_-_Part_1',
+      },
+      {
+        title: "'Vitamins' - Part 2",
+        dealer: 'Skier',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/%22Vitamins%22_-_Part_2',
+      },
+      {
+        title: 'Friend from the West - Part 1',
+        dealer: 'Skier',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/Friend_from_the_West_-_Part_1',
+      },
+      {
+        title: 'Friend from the West - Part 2',
+        dealer: 'Skier',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/Friend_from_the_West_-_Part_2',
+      },
+      {
+        title: 'Informed means armed',
+        dealer: 'Skier',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Informed_means_armed',
+      },
+      {
+        title: 'Chumming',
+        dealer: 'Skier',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Chumming',
+      },
+      {
+        title: 'Silent caliber',
+        dealer: 'Skier',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Silent_caliber',
+      },
+      {
+        title: 'Bullshit',
+        dealer: 'Skier',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Bullshit',
+      },
+      {
+        title: 'Setup',
+        dealer: 'Skier',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Setup',
+      },
+      {
+        title: 'Flint',
+        dealer: 'Skier',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/flint',
+      },
+      {
+        title: 'Lend lease - Part 1',
+        dealer: 'Skier',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Lend_lease_-_Part_1',
+      },
+      {
+        title: 'Kind of sabotage',
+        dealer: 'Skier',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Kind_of_sabotage',
+      },
+      {
+        title: 'Rigged game',
+        dealer: 'Skier',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Rigged_game',
+      },
+      {
+        title: 'Fishing Gear',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Fishing_Gear',
+      },
+      {
+        title: 'Tigr Safari',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Tigr_Safari',
+      },
+      {
+        title: 'Scrap Metal',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Scrap_Metal',
+      },
+      {
+        title: 'Eagle Eye',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Eagle_Eye',
+      },
+      {
+        title: 'Humanitarian Supplies',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Humanitarian_Supplies',
+      },
+      {
+        title: 'The Cult - Part 1',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/The_Cult_-_Part_1',
+      },
+      {
+        title: 'The Cult - Part 2',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/The_Cult_-_Part_2',
+      },
+      {
+        title: 'Spa Tour - Part 1',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Spa_Tour_-_Part_1',
+      },
+      {
+        title: 'Spa Tour - Part 2',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Spa_Tour_-_Part_2',
+      },
+      {
+        title: 'Spa Tour - Part 3',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Spa_Tour_-_Part_3',
+      },
+      {
+        title: 'Spa Tour - Part 4',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Spa_Tour_-_Part_4',
+      },
+      {
+        title: 'Spa Tour - Part 5',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Spa_Tour_-_Part_5',
+      },
+      {
+        title: 'Spa Tour - Part 6',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Spa_Tour_-_Part_6',
+      },
+      {
+        title: 'Spa Tour - Part 7',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Spa_Tour_-_Part_7',
+      },
+      {
+        title: 'Cargo X - Part 1',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Cargo_X_-_Part_1',
+      },
+      {
+        title: 'Cargo X - Part 2',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Cargo_X_-_Part_2',
+      },
+      {
+        title: 'Cargo X - Part 3',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Cargo_X_-_Part_3',
+      },
+      {
+        title: 'Wet Job - Part 1',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Wet_Job_-_Part_1',
+      },
+      {
+        title: 'Wet Job - Part 2',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Wet_Job_-_Part_2',
+      },
+      {
+        title: 'Wet Job - Part 3',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Wet_Job_-_Part_3',
+      },
+      {
+        title: 'Wet Job - Part 4',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Wet_Job_-_Part_4',
+      },
+      {
+        title: 'Wet Job - Part 5',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Wet_Job_-_Part_5',
+      },
+      {
+        title: 'Mentor',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Mentor',
+      },
+      {
+        title: 'Wet Job - Part 6',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Wet_Job_-_Part_5',
+      },
+      {
+        title: 'The guide',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/The_Guide',
+      },
+      {
+        title: 'Samples',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Samples',
+      },
+      {
+        title: 'TerraGroup employee',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/TerraGroup_employee',
+      },
+      {
+        title: 'Lend lease - Part 2',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Lend_lease_-_Part_2',
+      },
+      {
+        title: 'Peacekeeping mission',
+        dealer: 'Peacekeeper',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Peacekeeping_mission',
+      },
+      {
+        title: 'Introduction',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Introduction',
+      },
+      {
+        title: 'Gunsmith - Part 1',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_1',
+      },
+      {
+        title: 'Gunsmith - Part 2',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_2',
+      },
+      {
+        title: 'Gunsmith - Part 3',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_3',
+      },
+      {
+        title: 'Gunsmith - Part 4',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_4',
+      },
+      {
+        title: 'Gunsmith - Part 5',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_5',
+      },
+      {
+        title: 'Gunsmith - Part 6',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_6',
+      },
+      {
+        title: 'Gunsmith - Part 7',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_7',
+      },
+      {
+        title: 'Gunsmith - Part 8',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_8',
+      },
+      {
+        title: 'Gunsmith - Part 9',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_9',
+      },
+      {
+        title: 'Gunsmith - Part 10',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_10',
+      },
+      {
+        title: 'Gunsmith - Part 11',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_11',
+      },
+      {
+        title: 'Gunsmith - Part 12',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_12',
+      },
+      {
+        title: 'Gunsmith - Part 13',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_13',
+      },
+      {
+        title: 'Gunsmith - Part 14',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_14',
+      },
+      {
+        title: 'Gunsmith - Part 15',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_15',
+      },
+      {
+        title: 'Gunsmith - Part 16',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_16',
+      },
+      {
+        title: 'Signal - Part 1',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Signal_-_Part_1',
+      },
+      {
+        title: 'Insider',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Insider',
+      },
+      {
+        title: 'Signal - Part 2',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Signal_-_Part_2',
+      },
+      {
+        title: 'Scout',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Scout',
+      },
+      {
+        title: 'Signal - Part 3',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Signal_-_Part_3',
+      },
+      {
+        title: 'Signal - Part 4',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Signal_-_Part_4',
+      },
+      {
+        title: 'Farming - Part 1',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Farming_-_Part_1',
+      },
+      {
+        title: 'Farming - Part 2',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Farming_-_Part_2',
+      },
+      {
+        title: 'Bad habit',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Bad_habit',
+      },
+      {
+        title: 'Farming - Part 3',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Farming_-_Part_3',
+      },
+      {
+        title: 'Farming - Part 4',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Farming_-_Part_4',
+      },
+      {
+        title: 'Psycho Sniper',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Psycho_Sniper',
+      },
+      {
+        title: 'A Shooter Born in Heaven',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/A_Shooter_Born_in_Heaven',
+      },
+      {
+        title: 'Fertilizers',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Fertilizers',
+      },
+      {
+        title: 'Import',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Import',
+      },
+      {
+        title: 'The chemistry closet',
+        dealer: 'Mechanic',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/The_chemistry_closet',
+      },
+      {
+        title: 'Only business',
+        dealer: 'Ragman',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Only_business',
+      },
+      {
+        title: 'Make ULTRA Great Again',
+        dealer: 'Ragman',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Make_ULTRA_Great_Again',
+      },
+      {
+        title: 'Big sale',
+        dealer: 'Ragman',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Big_sale',
+      },
+      {
+        title: 'The Blood of War - Part 1',
+        dealer: 'Ragman',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/The_Blood_of_War_-_Part_1',
+      },
+      {
+        title: 'Dressed to kill',
+        dealer: 'Ragman',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Dressed_to_kill',
+      },
+      {
+        title: 'Gratitude',
+        dealer: 'Ragman',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Gratitude',
+      },
+      {
+        title: 'Hot delivery',
+        dealer: 'Ragman',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Hot_delivery',
+      },
+      {
+        title: 'Scavenger',
+        dealer: 'Ragman',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Scavenger',
+      },
+      {
+        title: 'Sales Night',
+        dealer: 'Ragman',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Sales_Night',
+      },
+      {
+        title: 'Database - Part 1',
+        dealer: 'Ragman',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Database_-_Part_1',
+      },
+      {
+        title: 'Database - Part 2',
+        dealer: 'Ragman',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Database_-_Part_2',
+      },
+      {
+        title: 'Minibus',
+        dealer: 'Ragman',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Minibus',
+      },
+      {
+        title: 'Sew it good - Part 1',
+        dealer: 'Ragman',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Sew_it_good_-_Part_1',
+      },
+      {
+        title: 'The Blood of War - Part 2',
+        dealer: 'Ragman',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/The_Blood_of_War_-_Part_2',
+      },
+      {
+        title: 'The Blood of War - Part 3',
+        dealer: 'Ragman',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/The_Blood_of_War_-_Part_3',
+      },
+      {
+        title: 'Living high is not a crime - Part 2',
+        dealer: 'Ragman',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/Living_high_is_not_a_crime_-_Part_2',
+      },
+      {
+        title: 'Sew it good - Part 2',
+        dealer: 'Ragman',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Sew_it_good_-_Part_1',
+      },
+      {
+        title: 'The key to success',
+        dealer: 'Ragman',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/The_key_to_success',
+      },
+      {
+        title: 'No fuss needed',
+        dealer: 'Ragman',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/No_fuss_needed',
+      },
+      {
+        title: 'The stylish one',
+        dealer: 'Ragman',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/The_stylish_one',
+      },
+      {
+        title: 'Supervisor',
+        dealer: 'Ragman',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Supervisor',
+      },
+      {
+        title: 'Sew it good - Part 3',
+        dealer: 'Ragman',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Sew_it_good_-_Part_3',
+      },
+      {
+        title: 'Living high is not a crime - Part 1',
+        dealer: 'Ragman',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/Living_high_is_not_a_crime_-_Part_1',
+      },
+      {
+        title: 'Sew it good - Part 4',
+        dealer: 'Ragman',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Sew_it_good_-_Part_4',
+      },
+      {
+        title: 'Charisma brings success',
+        dealer: 'Ragman',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Charisma_brings_success',
+      },
+      {
+        title: 'Textile - Part 1',
+        dealer: 'Ragman',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Textile_-_Part_1',
+      },
+      {
+        title: 'Textile - Part 2',
+        dealer: 'Ragman',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Textile_-_Part_2',
+      },
+      {
+        title: 'Acquaintance',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Acquaintance',
+      },
+      {
+        title: 'The survivalist path - Unprotected, but dangerous',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/The_survivalist_path_-_Unprotected,_but_dangerous',
+      },
+      {
+        title: 'The survivalist path - Thrifty',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/The_survivalist_path_-_Thrifty',
+      },
+      {
+        title: 'The survivalist path - Zhivchik',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/The_survivalist_path_-_Zhivchik',
+      },
+      {
+        title: 'The survivalist path - Wounded beast',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/The_survivalist_path_-_Wounded_beast',
+      },
+      {
+        title: 'The survivalist path - Tough guy',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/The_survivalist_path_-_Tough_guy',
+      },
+      {
+        title: 'Courtesy visit',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Courtesy_visit',
+      },
+      {
+        title: 'Nostalgia',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Nostalgia',
+      },
+      {
+        title: 'The survivalist path - Cold blooded',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/The_survivalist_path_-_Cold_blooded',
+      },
+      {
+        title: 'The survivalist path - Junkie',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/The_survivalist_path_-_Junkie',
+      },
+      {
+        title: 'The survivalist path - Combat medic',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/The_survivalist_path_-_Combat_medic',
+      },
+      {
+        title: 'Ambulance',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Ambulance',
+      },
+      {
+        title: 'Huntsman path - Secured perimeter',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/Huntsman_path_-_Secured_perimeter',
+      },
+      {
+        title: 'Reserv',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Reserv',
+      },
+      {
+        title: 'Huntsman path - Woods cleaning',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/Huntsman_path_-_Woods_cleaning',
+      },
+      {
+        title: 'Huntsman path - Controller',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/Huntsman_path_-_Controller',
+      },
+      {
+        title: 'Huntsman path - Evil watchman',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/Huntsman_path_-_Evil_watchman',
+      },
+      {
+        title: 'Fishing place',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Fishing_place',
+      },
+      {
+        title: 'Huntsman path - The trophy',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/Huntsman_path_-_The_trophy',
+      },
+      {
+        title: 'Huntsman path - Justice',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Huntsman_path_-_Justice',
+      },
+      {
+        title: 'Huntsman path - Sell-out',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Huntsman_path_-_Sell-out',
+      },
+      {
+        title: 'Huntsman path - Woods keeper',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/Huntsman_path_-_Woods_keeper',
+      },
+      {
+        title: 'Hunting trip',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Hunting_trip',
+      },
+      {
+        title: 'Huntsman path - Eraser - Part 1',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/Huntsman_path_-_Eraser_-_Part_1',
+      },
+      {
+        title: 'Huntsman path - Eraser - Part 2',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/Huntsman_path_-_Eraser_-_Part_2',
+      },
+      {
+        title: "'The Tarkov shooter' - Part 1",
+        dealer: 'Jaeger',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/%22The_Tarkov_shooter%22_-_Part_1',
+      },
+      {
+        title: "'The Tarkov shooter' - Part 2",
+        dealer: 'Jaeger',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/%22The_Tarkov_shooter%22_-_Part_2',
+      },
+      {
+        title: "'The Tarkov shooter' - Part 3",
+        dealer: 'Jaeger',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/%22The_Tarkov_shooter%22_-_Part_3',
+      },
+      {
+        title: "'The Tarkov shooter' - Part 4",
+        dealer: 'Jaeger',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/%22The_Tarkov_shooter%22_-_Part_4',
+      },
+      {
+        title: "'The Tarkov shooter' - Part 5",
+        dealer: 'Jaeger',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/%22The_Tarkov_shooter%22_-_Part_5',
+      },
+      {
+        title: "'The Tarkov shooter' - Part 6",
+        dealer: 'Jaeger',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/%22The_Tarkov_shooter%22_-_Part_6',
+      },
+      {
+        title: "'The Tarkov shooter' - Part 7",
+        dealer: 'Jaeger',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/%22The_Tarkov_shooter%22_-_Part_7',
+      },
+      {
+        title: "'The Tarkov shooter' - Part 8",
+        dealer: 'Jaeger',
+        completed: false,
+        wiki:
+          'https://escapefromtarkov.gamepedia.com/%22The_Tarkov_shooter%22_-_Part_8',
+      },
+      {
+        title: 'Shady business',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Shady_business',
+      },
+      {
+        title: 'Huntsman path - Sadist',
+        dealer: 'Jaeger',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Huntsman_path_-_Sadist',
+      },
+      {
+        title: 'Collector',
+        dealer: 'Fence',
+        completed: false,
+        wiki: 'https://escapefromtarkov.gamepedia.com/Collector',
+      },
+    ],
+  };
 }
