@@ -27,6 +27,12 @@ export default {
     TaskList,
     ProgressBar
   },
+  metaInfo: {
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'description', content: 'Tarkov task tracker. A simple tool to track the tasks you have completed.' }
+    ]
+  },
   data: () => {
     return {
       tasks: taskData().tasks,
