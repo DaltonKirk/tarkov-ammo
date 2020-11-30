@@ -53,7 +53,6 @@ export default {
   }
 
   button {
-    background: #fff;
     padding: 20px;
     min-width: 150px;
 
