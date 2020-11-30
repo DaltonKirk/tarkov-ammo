@@ -1,11 +1,10 @@
 <template>
   <div id="app">
     <h1>Tarkov Ammo</h1>
-    <!-- <div id="nav">
+    <div id="nav">
       <router-link to="/">Compare Ammo</router-link>
-      <router-link to="/maps">Maps</router-link>
-      <router-link to="/about">About</router-link>
-    </div> -->
+      <router-link to="/task-tracker">Task Tracker</router-link>
+    </div>
     <router-view />
   </div>
 </template>
@@ -50,5 +49,9 @@ body {
       color: #42b983;
     }
   }
+}
+
+button {
+  cursor: pointer;
 }
 </style>

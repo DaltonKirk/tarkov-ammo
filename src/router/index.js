@@ -19,12 +19,12 @@ Vue.use(VueRouter)
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/maps',
-    name: 'Maps',
+    path: '/task-tracker',
+    name: 'TaskTracker',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Maps.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/TaskTracker.vue')
   }
 
 ]
