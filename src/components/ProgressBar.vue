@@ -1,6 +1,6 @@
 <template>
   <div class="progress-bar">
-      <div class="bar-fill" :style="calcWidth"></div>
+      <div class="bar-fill" style="width:0" :style="calcWidth"></div>
   </div>
 </template>
 
