@@ -6,12 +6,19 @@
       class="task-list-item"
       :class="task.completed ? 'task-list-item--completed' : ''"
     >
-      <div class="task-list-item__title">
-        {{ task.title }}
+      <div class="task-list-item__title c">
+        <div>
+          {{ task.title }}
+        </div>
+        <div>
+          <a :href="task.wiki" target="_blank" class="task-list-item__wiki"
+            >View Wiki</a
+          >
+        </div>
       </div>
       <div>
         <button @click="toggleTaskCompletion(task)">
-          {{ task.completed ? "Completed" : "Incomplete" }}
+          {{ task.completed ? 'Completed' : 'Incomplete' }}
         </button>
       </div>
     </li>
@@ -20,9 +27,9 @@
 
 <script>
 export default {
-  props: ["tasks"],
+  props: ['tasks'],
   methods: {
-    toggleTaskCompletion: function (task) {
+    toggleTaskCompletion: function(task) {
       task.completed = !task.completed;
       localStorage[task.title] = task.completed;
     },
@@ -54,11 +61,24 @@ export default {
     border: none;
   }
 
-    &--completed {
+  &--completed {
     button {
       background: rgba(145, 255, 145, 0.5);
       color: white;
     }
   }
+}
+
+.task-list-item__title {
+  text-align: start;
+}
+
+.task-list-item__wiki {
+  text-decoration: none;
+  color: rgba(145, 255, 145, 0.5);
+}
+
+.task-list-item__wiki:hover {
+  text-decoration: underline;
 }
 </style>

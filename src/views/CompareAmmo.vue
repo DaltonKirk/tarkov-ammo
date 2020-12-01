@@ -18,7 +18,7 @@
         :bullet-to-compare="bulletRight"
         property="FleshDamage"
         display-name="Flesh Damage"
-        v-if="(bulletLeft && bulletRight)"
+        v-if="bulletLeft && bulletRight"
       ></BulletAttributeRow>
       <BulletAttributeRow
         :bullet="bulletLeft"
@@ -87,22 +87,38 @@
         display-name="Armor 6"
       ></BulletAttributeRow>
     </div>
-    <div v-if="!bulletLeft || !bulletRight">Select two ammo types to compare</div>
+    <div v-if="!bulletLeft || !bulletRight">
+      Select two ammo types to compare
+    </div>
   </div>
 </template>
 
 <script>
-import BulletSelector from "@/components/BulletSelector.vue";
-import bulletData from "@/data/bullet.js";
-import BulletAttributeRow from "@/components/BulletAttributeRow";
+import BulletSelector from '@/components/BulletSelector.vue';
+import bulletData from '@/data/bullet.js';
+import BulletAttributeRow from '@/components/BulletAttributeRow';
 
 export default {
-  name: "CompareAmmo",
+  name: 'CompareAmmo',
   components: {
     BulletSelector,
     BulletAttributeRow,
   },
-  data: function () {
+
+  metaInfo: {
+    title: 'Compare Ammo',
+    titleTemplate: '%s - Tarkov Ammo',
+    meta: [
+      { charset: 'utf-8' },
+      {
+        name: 'description',
+        content:
+          'Compare Tarkov ammo side by side and determine which ammo is better. View damage differences, accuracy differences, and more.',
+      },
+    ],
+  },
+
+  data: function() {
     return {
       bulletLeft: null,
       bulletRight: null,
@@ -110,14 +126,14 @@ export default {
     };
   },
   methods: {
-    bulletChangeLeft: function (bullet) {
+    bulletChangeLeft: function(bullet) {
       this.bulletLeft = bullet;
     },
-    bulletChangeRight: function (bullet) {
+    bulletChangeRight: function(bullet) {
       this.bulletRight = bullet;
     },
   },
-  mounted: function () {
+  mounted: function() {
     this.bullets = bulletData().bullets;
   },
 };
@@ -138,7 +154,7 @@ export default {
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
-  
+
   & > div {
     flex-basis: 49%;
   }
