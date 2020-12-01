@@ -81,6 +81,4 @@ export default {
 .task-list-item__wiki:hover {
   text-decoration: underline;
 }
-.c {
-}
 </style>

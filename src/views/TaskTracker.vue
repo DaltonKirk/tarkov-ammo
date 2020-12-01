@@ -4,7 +4,6 @@
       v-model="searchQ"
       placeholder="Search Tasks"
       class="task-searchbar"
-      @keyup="filterTasks"
     />
     <div style="text-align:right">{{ completedCount }}/{{ tasks.length }}</div>
     <ProgressBar :total="tasks.length" :value="completedCount" />
@@ -23,7 +22,10 @@
       :tasks="remainingTasks"
       v-else-if="showIncomplete && !showCompleted"
     />
-    <TaskList :tasks="tasks" v-else-if="showCompleted && showIncomplete" />
+    <TaskList
+      :tasks="filterTasks"
+      v-else-if="showCompleted && showIncomplete"
+    />
   </div>
 </template>
 
@@ -38,6 +40,8 @@ export default {
     ProgressBar,
   },
   metaInfo: {
+    title: 'Task Tracker',
+    titleTemplate: '%s - Tarkov Ammo',
     meta: [
       { charset: 'utf-8' },
       {
@@ -52,24 +56,12 @@ export default {
       tasks: taskData().tasks,
       showCompleted: true,
       showIncomplete: true,
+      // Search query
       searchQ: '',
     };
   },
 
-  methods: {
-    filterTasks() {
-      if (this.searchQ != '') {
-        this.tasks = this.tasks.filter((task) => {
-          return (
-            task.title.toLowerCase().indexOf(this.searchQ.toLowerCase()) > -1
-          );
-        });
-      } else {
-        this.tasks = taskData().tasks;
-      }
-    },
-  },
-
+  // Sets task completion status from localStorage
   mounted() {
     for (var i = 0; i < this.tasks.length; i++) {
       this.tasks[i].completed = localStorage[this.tasks[i].title] === 'true';
@@ -77,13 +69,26 @@ export default {
   },
   computed: {
     remainingTasks: function() {
-      return this.tasks.filter((task) => !task.completed);
+      return this.filterTasks.filter((task) => !task.completed);
     },
     completedTasks: function() {
-      return this.tasks.filter((task) => task.completed);
+      return this.filterTasks.filter((task) => task.completed);
     },
     completedCount: function() {
       return this.tasks.filter((task) => task.completed).length;
+    },
+    // Filters tasks via search input
+    filterTasks: function() {
+      let tasks = this.tasks;
+      // If there is no search query, return base tasks
+      if (!this.searchQ) return tasks;
+
+      // Filter and return tasks based on indexOf search input
+      tasks = tasks.filter((task) => {
+        return task.title.toLowerCase().indexOf(this.searchQ) > -1;
+      });
+
+      return tasks;
     },
   },
 };
