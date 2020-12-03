@@ -6,7 +6,7 @@
       class="task-list-item"
       :class="task.completed ? 'task-list-item--completed' : ''"
     >
-      <div class="task-list-item__title c">
+      <div class="task-list-item__title">
         <div>
           {{ task.title }}
         </div>
