@@ -11,7 +11,7 @@
           {{ task.title }}
         </div>
         <div>
-          <a :href="task.wiki" target="_blank" class="task-list-item__wiki"
+          <a :href="task.wikiLink" target="_blank" class="task-list-item__wiki"
             >View Wiki</a
           >
         </div>
