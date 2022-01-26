@@ -147,7 +147,7 @@ export default function bulletData() {
       },
       {
         Caliber: "",
-        Name: "12/70 Lead slug",
+        Name: "12/70 lead slug",
         FleshDamage: 167,
         PenetrationPower: 15,
         ArmorDamage: 55,
@@ -247,7 +247,7 @@ export default function bulletData() {
         FleshDamage: 164,
         PenetrationPower: 37,
         ArmorDamage: 65,
-        Accuracy: 125,
+        Accuracy: 80,
         Recoil: 50,
         FragmentationChance: 3,
         Armor1: 6,
@@ -291,7 +291,7 @@ export default function bulletData() {
       },
       {
         Caliber: "",
-        Name: "20/70 7.5mm Buckshot",
+        Name: "20/70 7.5mm buckshot",
         FleshDamage: "8x25",
         PenetrationPower: 3,
         ArmorDamage: 14,
@@ -563,7 +563,7 @@ export default function bulletData() {
       },
       {
         Caliber: "",
-        Name: "9x18mm PM PPe gzh",
+        Name: "9x18mm PM Ppe gzh",
         FleshDamage: 61,
         PenetrationPower: 7,
         ArmorDamage: 15,
@@ -1143,8 +1143,8 @@ export default function bulletData() {
         FleshDamage: 54,
         PenetrationPower: 35,
         ArmorDamage: 37,
-        Accuracy: "",
-        Recoil: -20,
+        Accuracy: 5,
+        Recoil: -24,
         FragmentationChance: 20,
         Armor1: 6,
         Armor2: 6,
@@ -1347,7 +1347,7 @@ export default function bulletData() {
       },
       {
         Caliber: "",
-        Name: ".366 TKM Eko",
+        Name: ".366 TKM EKO",
         FleshDamage: 73,
         PenetrationPower: 30,
         ArmorDamage: 40,
@@ -1763,7 +1763,7 @@ export default function bulletData() {
       },
       {
         Caliber: "",
-        Name: ".300 Whisper",
+        Name: ".300 Blackout Whisper",
         FleshDamage: 90,
         PenetrationPower: 14,
         ArmorDamage: 19,
@@ -2003,7 +2003,7 @@ export default function bulletData() {
       },
       {
         Caliber: "",
-        Name: "7.62x51mm M62",
+        Name: "7.62x51mm M62 Tracer",
         FleshDamage: 79,
         PenetrationPower: 44,
         ArmorDamage: 75,
@@ -2051,7 +2051,7 @@ export default function bulletData() {
       },
       {
         Caliber: "",
-        Name: "7.62x54R T-46M",
+        Name: "7.62x54mm R T-46M gzh",
         FleshDamage: 82,
         PenetrationPower: 41,
         ArmorDamage: 83,
@@ -2067,7 +2067,7 @@ export default function bulletData() {
       },
       {
         Caliber: "",
-        Name: "7.62x54R LPS gzh",
+        Name: "7.62x54mm R LPS gzh",
         FleshDamage: 81,
         PenetrationPower: 42,
         ArmorDamage: 78,
@@ -2083,7 +2083,7 @@ export default function bulletData() {
       },
       {
         Caliber: "",
-        Name: "7.62x54R PS",
+        Name: "7.62x54mm R PS gzh",
         FleshDamage: 86,
         PenetrationPower: 45,
         ArmorDamage: 84,
@@ -2099,7 +2099,7 @@ export default function bulletData() {
       },
       {
         Caliber: "",
-        Name: "7.62x54R BT gzh",
+        Name: "7.62x54mm R BT gzh",
         FleshDamage: 78,
         PenetrationPower: 59,
         ArmorDamage: 87,
@@ -2115,7 +2115,7 @@ export default function bulletData() {
       },
       {
         Caliber: "",
-        Name: "7.62x54R SNB",
+        Name: "7.62x54mm R SNB gzh",
         FleshDamage: 75,
         PenetrationPower: 62,
         ArmorDamage: 87,
@@ -2131,7 +2131,7 @@ export default function bulletData() {
       },
       {
         Caliber: "",
-        Name: "7.62x54R BS",
+        Name: "7.62x54mm R BS gs",
         FleshDamage: 72,
         PenetrationPower: 70,
         ArmorDamage: 88,
@@ -2163,7 +2163,7 @@ export default function bulletData() {
       },
       {
         Caliber: "",
-        Name: ".338 Lapua Magnum UPZ",
+        Name: ".338 Lapua Magnum UCW",
         FleshDamage: 142,
         PenetrationPower: 32,
         ArmorDamage: 70,
