@@ -81,7 +81,10 @@ export default {
         return (this.cleanedRightValue / this.maxValue) * 100;
       }
       if (left) {
-        return 100 - (this.cleanedLeftValue / this.maxValue) * 100;
+        let percent = 100 - (this.cleanedLeftValue / this.maxValue) * 100;
+        percent = percent === 100 ? 0 : percent;
+        percent = percent === 0 ? 100 : percent;
+        return percent;
       }
     },
   },
