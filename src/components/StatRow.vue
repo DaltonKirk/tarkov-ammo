@@ -1,9 +1,8 @@
 <template>
   <div class="stat-row">
-    <div class="left-side">
+    <div class="left-side" :class="barFillClass(true)">
       <div
         class="bar-fill"
-        :class="barFillClass(true)"
         :style="{ width: getPercent(leftValue, true) + '%' }"
       ></div>
       <div class="bar-value">{{ leftValue }}</div>
@@ -74,15 +73,15 @@ export default {
       } else if (!left && this.betterSide === "right") {
         return "better";
       } else {
-          return ""
+        return "";
       }
     },
     getPercent(value, left) {
-      if (!left ) {
+      if (!left) {
         return (this.cleanedRightValue / this.maxValue) * 100;
       }
       if (left) {
-        return (this.cleanedLeftValue / this.maxValue) * 100;
+        return 100 - (this.cleanedLeftValue / this.maxValue) * 100;
       }
     },
   },
@@ -94,7 +93,7 @@ $green: rgba(145, 255, 145, 0.5);
 $red: rgba(255, 70, 41, 0.5);
 
 .stat-row {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgb(0, 0, 0);
   display: flex;
   height: 10px;
   width: 100%;
@@ -103,9 +102,6 @@ $red: rgba(255, 70, 41, 0.5);
 
 .left-side,
 .right-side {
-  //   border: lightgray;
-  //   border-width: 1px;
-  //   border-style: solid;
   display: flex;
   flex-basis: 50%;
   height: 100%;
@@ -114,7 +110,17 @@ $red: rgba(255, 70, 41, 0.5);
 }
 
 .left-side {
-  justify-content: end;
+  &.better {
+    background-color: $green;
+  }
+
+  &.worse {
+    background-color: $red;
+  }
+
+  .bar-fill {
+    background-color: rgb(0, 0, 0);
+  }
 }
 
 .right-side {
