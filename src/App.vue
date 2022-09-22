@@ -29,7 +29,6 @@ body {
   color: #fff;
   margin: 20px auto;
   max-width: 1660px;
-  min-height: 735px;
   font-size: 20px;
 }
 
