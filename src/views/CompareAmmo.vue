@@ -13,84 +13,11 @@
       ></BulletSelector>
     </div>
     <div>
-      <!-- <BulletAttributeRow
-        :bullet="bulletLeft"
-        :bullet-to-compare="bulletRight"
-        property="FleshDamage"
-        display-name="Flesh Damage"
-        v-if="bulletLeft && bulletRight"
-      ></BulletAttributeRow>
-      <BulletAttributeRow
-        :bullet="bulletLeft"
-        :bullet-to-compare="bulletRight"
-        property="PenetrationPower"
-        display-name="Penetration Power"
-      ></BulletAttributeRow>
-      <BulletAttributeRow
-        :bullet="bulletLeft"
-        :bullet-to-compare="bulletRight"
-        property="ArmorDamage"
-        display-name="Armor Damage"
-      ></BulletAttributeRow>
-      <BulletAttributeRow
-        :bullet="bulletLeft"
-        :bullet-to-compare="bulletRight"
-        property="Accuracy"
-        display-name="Accuracy"
-      ></BulletAttributeRow>
-      <BulletAttributeRow
-        :bullet="bulletLeft"
-        :bullet-to-compare="bulletRight"
-        property="Recoil"
-        display-name="Recoil"
-      ></BulletAttributeRow>
-      <BulletAttributeRow
-        :bullet="bulletLeft"
-        :bullet-to-compare="bulletRight"
-        property="FragmentationChance"
-        display-name="Fragmentation Chance"
-      ></BulletAttributeRow>
-      <BulletAttributeRow
-        :bullet="bulletLeft"
-        :bullet-to-compare="bulletRight"
-        property="Armor1"
-        display-name="Armor 1"
-      ></BulletAttributeRow>
-      <BulletAttributeRow
-        :bullet="bulletLeft"
-        :bullet-to-compare="bulletRight"
-        property="Armor2"
-        display-name="Armor 2"
-      ></BulletAttributeRow>
-      <BulletAttributeRow
-        :bullet="bulletLeft"
-        :bullet-to-compare="bulletRight"
-        property="Armor3"
-        display-name="Armor 3"
-      ></BulletAttributeRow>
-      <BulletAttributeRow
-        :bullet="bulletLeft"
-        :bullet-to-compare="bulletRight"
-        property="Armor4"
-        display-name="Armor 4"
-      ></BulletAttributeRow>
-      <BulletAttributeRow
-        :bullet="bulletLeft"
-        :bullet-to-compare="bulletRight"
-        property="Armor5"
-        display-name="Armor 5"
-      ></BulletAttributeRow>
-      <BulletAttributeRow
-        :bullet="bulletLeft"
-        :bullet-to-compare="bulletRight"
-        property="Armor6"
-        display-name="Armor 6"
-      ></BulletAttributeRow> -->
     </div>
     <div v-if="!bulletLeft || !bulletRight">
-      Select two ammo types to compare
+      Select two ammo types
     </div>
-    <div>
+    <div v-else>
       <stat-row
         :label="'Flesh damage'"
         :left-value="bulletLeft.FleshDamage"
@@ -196,34 +123,8 @@ export default {
 
   data: function () {
     return {
-      bulletLeft: {
-        FleshDamage: 0,
-        PenetrationPower: 0,
-        ArmorDamage: 0,
-        Accuracy: 0,
-        Recoil: 0,
-        FragmentationChance: 0,
-        Armor1: 0,
-        Armor2: 0,
-        Armor3: 0,
-        Armor4: 0,
-        Armor5: 0,
-        Armor6: 0,
-      },
-      bulletRight: {
-        FleshDamage: 0,
-        PenetrationPower: 0,
-        ArmorDamage: 0,
-        Accuracy: 0,
-        Recoil: 0,
-        FragmentationChance: 0,
-        Armor1: 0,
-        Armor2: 0,
-        Armor3: 0,
-        Armor4: 0,
-        Armor5: 0,
-        Armor6: 0,
-      },
+      bulletLeft: null,
+      bulletRight: null,
       bullets: [],
     };
   },
