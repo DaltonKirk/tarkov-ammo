@@ -1,10 +1,6 @@
 <template>
   <div id="app">
     <h1>Tarkov Ammo</h1>
-    <div id="nav">
-      <router-link to="/">Compare Ammo</router-link>
-      <router-link to="/task-tracker">Task Tracker</router-link>
-    </div>
     <router-view />
   </div>
 </template>
