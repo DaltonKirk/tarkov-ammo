@@ -2,7 +2,7 @@
   <div class="bullet-selector">
     <BaseAutocomplete
       :options="bullets"
-      placeholder="Search ammo types"
+      placeholder="Select ammo"
       @optionSelected="setBullet"
       @optionDeselected="clear"
     />
@@ -38,5 +38,11 @@ export default {
 <style lang="scss" scoped>
 .data-row-label {
   text-align: left;
+}
+
+.bullet-selector {
+  &:first-of-type {
+    margin-bottom: 10px;
+  }
 }
 </style>

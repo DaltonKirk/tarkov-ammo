@@ -296,7 +296,6 @@ export default {
 <style lang="scss" scoped>
 .bullet-comparer {
   div {
-    height: 40px;
     line-height: 40px;
   }
 
@@ -306,11 +305,16 @@ export default {
 
 .bullet-selectors {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin-bottom: 15px;
 
   & > div {
     flex-basis: 49%;
+  }
+
+  @media screen and (min-width: 640px) {
+    flex-direction: row;
   }
 }
 </style>

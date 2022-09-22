@@ -98,7 +98,7 @@ $red: rgba(255, 70, 41, 0.5);
 .stat-row {
   background-color: rgb(0, 0, 0);
   display: flex;
-  height: 10px;
+  height: 40px;
   width: 100%;
   position: relative;
 }
@@ -113,6 +113,7 @@ $red: rgba(255, 70, 41, 0.5);
 }
 
 .left-side {
+  background-color: rgba(255, 255, 255, 0.4);
   &.better {
     background-color: $green;
   }
@@ -143,7 +144,7 @@ $red: rgba(255, 70, 41, 0.5);
 
 .bar-fill {
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(255, 255, 255, 0.4);
   transition: width 1s;
 
   &.better {
