@@ -96,11 +96,11 @@ $green: rgba(145, 255, 145, 0.5);
 $red: rgba(255, 70, 41, 0.5);
 
 .stat-row {
-  background-color: rgb(0, 0, 0);
   display: flex;
   height: 40px;
   width: 100%;
   position: relative;
+  border-bottom: 1px solid white;
 }
 
 .left-side,
@@ -123,7 +123,7 @@ $red: rgba(255, 70, 41, 0.5);
   }
 
   .bar-fill {
-    background-color: rgb(0, 0, 0);
+    background-color: #27272f;
   }
 }
 

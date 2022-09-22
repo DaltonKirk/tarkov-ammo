@@ -14,10 +14,7 @@
     </div>
     <div>
     </div>
-    <div v-if="!bulletLeft || !bulletRight">
-      Select two ammo types
-    </div>
-    <div v-else>
+    <div>
       <stat-row
         :label="'Flesh damage'"
         :left-value="bulletLeft.FleshDamage"
@@ -123,8 +120,34 @@ export default {
 
   data: function () {
     return {
-      bulletLeft: null,
-      bulletRight: null,
+      bulletLeft: {
+        FleshDamage: 0,
+        PenetrationPower: 0,
+        ArmorDamage: 0,
+        Accuracy: 0,
+        Recoil: 0,
+        FragmentationChance: 0,
+        Armor1: 0,
+        Armor2: 0,
+        Armor3: 0,
+        Armor4: 0,
+        Armor5: 0,
+        Armor6: 0,
+      },
+      bulletRight: {
+        FleshDamage: 0,
+        PenetrationPower: 0,
+        ArmorDamage: 0,
+        Accuracy: 0,
+        Recoil: 0,
+        FragmentationChance: 0,
+        Armor1: 0,
+        Armor2: 0,
+        Armor3: 0,
+        Armor4: 0,
+        Armor5: 0,
+        Armor6: 0,
+      },
       bullets: [],
     };
   },
@@ -182,11 +205,33 @@ export default {
   },
   methods: {
     bulletChangeLeft: function (bullet) {
+      if (!bullet) { 
+        bullet = this.clearBullet()
+      }
       this.bulletLeft = bullet;
     },
     bulletChangeRight: function (bullet) {
+      if (!bullet) { 
+        bullet = this.clearBullet()
+      }
       this.bulletRight = bullet;
     },
+    clearBullet: function () { 
+      return {
+        FleshDamage: 0,
+        PenetrationPower: 0,
+        ArmorDamage: 0,
+        Accuracy: 0,
+        Recoil: 0,
+        FragmentationChance: 0,
+        Armor1: 0,
+        Armor2: 0,
+        Armor3: 0,
+        Armor4: 0,
+        Armor5: 0,
+        Armor6: 0,
+      }
+    }
   },
   mounted: function () {
     this.bullets = bulletData().bullets;
