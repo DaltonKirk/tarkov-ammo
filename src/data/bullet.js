@@ -1307,8 +1307,24 @@ export default function bulletData() {  return { bullets: [
         "Armor1": 6,
         "Armor2": 6,
         "Armor3": 5,
-        "Armor4": 4,
-        "Armor5": 3,
+        "Armor4": 3,
+        "Armor5": 2,
+        "Armor6": 1
+    },
+    {
+        "Caliber": "",
+        "Name": "9x39mm SPP gs",
+        "FleshDamage": 68,
+        "PenetrationPower": 40,
+        "ArmorDamage": 55,
+        "Accuracy": 10,
+        "Recoil": 10,
+        "FragmentationChance": 20,
+        "Armor1": 6,
+        "Armor2": 6,
+        "Armor3": 6,
+        "Armor4": 6,
+        "Armor5": 4,
         "Armor6": 3
     },
     {
@@ -1342,22 +1358,6 @@ export default function bulletData() {  return { bullets: [
         "Armor4": 6,
         "Armor5": 6,
         "Armor6": 5
-    },
-    {
-        "Caliber": "",
-        "Name": "9x39mm SPP gs",
-        "FleshDamage": 68,
-        "PenetrationPower": 40,
-        "ArmorDamage": 55,
-        "Accuracy": 10,
-        "Recoil": 10,
-        "FragmentationChance": 20,
-        "Armor1": 6,
-        "Armor2": 6,
-        "Armor3": 6,
-        "Armor4": 6,
-        "Armor5": 5,
-        "Armor6": 4
     },
     {
         "Caliber": "",
@@ -1481,7 +1481,7 @@ export default function bulletData() {  return { bullets: [
         "Recoil": -5,
         "FragmentationChance": 30,
         "Armor1": 6,
-        "Armor2": 2,
+        "Armor2": 1,
         "Armor3": 0,
         "Armor4": 0,
         "Armor5": 0,
@@ -1564,8 +1564,8 @@ export default function bulletData() {  return { bullets: [
         "Armor2": 6,
         "Armor3": 6,
         "Armor4": 4,
-        "Armor5": 2,
-        "Armor6": 0
+        "Armor5": 3,
+        "Armor6": 1
     },
     {
         "Caliber": "",
@@ -1595,7 +1595,7 @@ export default function bulletData() {  return { bullets: [
         "Armor1": 6,
         "Armor2": 6,
         "Armor3": 6,
-        "Armor4": 5,
+        "Armor4": 6,
         "Armor5": 4,
         "Armor6": 3
     },
@@ -1866,7 +1866,7 @@ export default function bulletData() {  return { bullets: [
         "FragmentationChance": 30,
         "Armor1": 6,
         "Armor2": 6,
-        "Armor3": 5,
+        "Armor3": 6,
         "Armor4": 3,
         "Armor5": 2,
         "Armor6": 0
@@ -1963,7 +1963,7 @@ export default function bulletData() {  return { bullets: [
         "Armor1": 6,
         "Armor2": 6,
         "Armor3": 6,
-        "Armor4": 4,
+        "Armor4": 5,
         "Armor5": 3,
         "Armor6": 2
     },
@@ -2101,7 +2101,7 @@ export default function bulletData() {  return { bullets: [
         "FleshDamage": 67,
         "PenetrationPower": 70,
         "ArmorDamage": 85,
-        "Accuracy": 3,
+        "Accuracy": 5,
         "Recoil": 8,
         "FragmentationChance": 13,
         "Armor1": 6,
@@ -2173,7 +2173,7 @@ export default function bulletData() {  return { bullets: [
         "Armor3": 6,
         "Armor4": 6,
         "Armor5": 6,
-        "Armor6": 6
+        "Armor6": 5
     },
     {
         "Caliber": "",
@@ -2385,7 +2385,7 @@ export default function bulletData() {  return { bullets: [
     },
     {
         "Caliber": "",
-        "Name": "26x75 flare cartridge (White)",
+        "Name": "26x75mm flare cartridge (White)",
         "FleshDamage": 37,
         "PenetrationPower": 0,
         "ArmorDamage": 60,
@@ -2401,7 +2401,7 @@ export default function bulletData() {  return { bullets: [
     },
     {
         "Caliber": "",
-        "Name": "26x75 flare cartridge (Green)",
+        "Name": "26x75mm flare cartridge (Green)",
         "FleshDamage": 37,
         "PenetrationPower": 0,
         "ArmorDamage": 60,
@@ -2417,7 +2417,7 @@ export default function bulletData() {  return { bullets: [
     },
     {
         "Caliber": "",
-        "Name": "26x75 flare cartridge (Red)",
+        "Name": "26x75mm flare cartridge (Red)",
         "FleshDamage": 37,
         "PenetrationPower": 0,
         "ArmorDamage": 60,
@@ -2433,7 +2433,7 @@ export default function bulletData() {  return { bullets: [
     },
     {
         "Caliber": "",
-        "Name": "26x75 flare cartridge (Yellow)",
+        "Name": "26x75mm flare cartridge (Yellow)",
         "FleshDamage": 37,
         "PenetrationPower": 0,
         "ArmorDamage": 60,
