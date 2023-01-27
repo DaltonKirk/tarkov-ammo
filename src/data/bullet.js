@@ -280,12 +280,12 @@ export default function bulletData() {  return { bullets: [
         "Accuracy": -7,
         "Recoil": 25,
         "FragmentationChance": 0,
-        "Armor1": "",
-        "Armor2": "",
-        "Armor3": "",
-        "Armor4": "",
-        "Armor5": "",
-        "Armor6": ""
+        "Armor1": 0,
+        "Armor2": 0,
+        "Armor3": 0,
+        "Armor4": 0,
+        "Armor5": 0,
+        "Armor6": 0
     },
     {
         "Caliber": "",
@@ -408,12 +408,12 @@ export default function bulletData() {  return { bullets: [
         "Accuracy": "",
         "Recoil": 25,
         "FragmentationChance": 0,
-        "Armor1": "",
-        "Armor2": "",
-        "Armor3": "",
-        "Armor4": "",
-        "Armor5": "",
-        "Armor6": ""
+        "Armor1": 6,
+        "Armor2": 6,
+        "Armor3": 6,
+        "Armor4": 6,
+        "Armor5": 5,
+        "Armor6": 5
     },
     {
         "Caliber": "",
@@ -424,12 +424,12 @@ export default function bulletData() {  return { bullets: [
         "Accuracy": -5,
         "Recoil": 30,
         "FragmentationChance": 10,
-        "Armor1": "",
-        "Armor2": "",
-        "Armor3": "",
-        "Armor4": "",
-        "Armor5": "",
-        "Armor6": ""
+        "Armor1": 6,
+        "Armor2": 6,
+        "Armor3": 6,
+        "Armor4": 6,
+        "Armor5": 5,
+        "Armor6": 4
     },
     {
         "Caliber": "",
