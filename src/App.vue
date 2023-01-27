@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <h1>Tarkov Ammo</h1>
+    <a class="title" href="/">
+      <h1>Tarkov Ammo</h1>
+    </a>
     <router-view />
   </div>
 </template>
@@ -31,6 +33,11 @@ body {
   max-width: 1660px;
   min-height: calc(100vh - 150px);
   font-size: 20px;
+}
+
+.title {
+  color: #fff;
+  text-decoration: none;
 }
 
 #nav {
