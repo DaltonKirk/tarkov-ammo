@@ -37,7 +37,7 @@ export default {
   props: ["options", "placeholder", "initVal"],
   data: function () {
     return {
-      searchTerm: this.initVal,
+      searchTerm: this.initVal || '',
       filteredOptions: [],
       selectedText: "",
     };
@@ -47,6 +47,7 @@ export default {
       if (!this.searchTerm) {
         this.filteredOptions = this.options;
       }
+      
       if (this.options) {
         this.filteredOptions = this.options.filter(
           (e) =>

@@ -95,14 +95,12 @@
 <script>
 import BulletSelector from "@/components/BulletSelector.vue";
 import bulletData from "@/data/bullet.js";
-//import BulletAttributeRow from "@/components/BulletAttributeRow";
 import StatRow from "../components/StatRow.vue";
 
 export default {
   name: "CompareAmmo",
   components: {
     BulletSelector,
-    // BulletAttributeRow,
     StatRow,
   },
 
@@ -156,7 +154,7 @@ export default {
   },
   watch: {
     bulletLeft: function (val) {
-      if (val.Name && val.Name.toLowerCase() != this.$route.query.left.toLowerCase()) {
+      if (val.Name && val.Name.toLowerCase() != (this.$route.query.left || '').toLowerCase()) {
         this.$router.push({
           path: this.$route.path,
           query: { left: val.Name, right: this.$route.query.right },
@@ -164,7 +162,7 @@ export default {
       }
     },
     bulletRight: function (val) {
-      if (val.Name && val.Name.toLowerCase() != this.$route.query.right.toLowerCase()) {
+      if (val.Name && val.Name.toLowerCase() != (this.$route.query.right || '').toLowerCase()) {
         this.$router.push({
           path: this.$route.path,
           query: { left: this.$route.query.left, right: val.Name },
