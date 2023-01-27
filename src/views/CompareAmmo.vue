@@ -156,16 +156,20 @@ export default {
   },
   watch: {
     bulletLeft: function (val) {
-      this.$router.push({
-        path: this.$route.path,
-        query: { left: val.Name, right: this.$route.query.right },
-      });
+      if (val.Name && val.Name.toLowerCase() != this.$route.query.left.toLowerCase()) {
+        this.$router.push({
+          path: this.$route.path,
+          query: { left: val.Name, right: this.$route.query.right },
+        });
+      }
     },
     bulletRight: function (val) {
-      this.$router.push({
-        path: this.$route.path,
-        query: { left: this.$route.query.left, right: val.Name },
-      });
+      if (val.Name && val.Name.toLowerCase() != this.$route.query.right.toLowerCase()) {
+        this.$router.push({
+          path: this.$route.path,
+          query: { left: this.$route.query.left, right: val.Name },
+        });
+      }
     },
   },
   computed: {
