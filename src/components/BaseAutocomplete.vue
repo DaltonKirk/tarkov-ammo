@@ -34,9 +34,11 @@ export default {
   components: {
     ClearIcon,
   },
-  props: ["options", "placeholder", "searchTerm"],
+  props: ["options", "placeholder", "initVal"],
   data: function () {
+    console.log(this.initVal)
     return {
+      searchTerm: this.initVal,
       filteredOptions: [],
       selectedText: "",
     };

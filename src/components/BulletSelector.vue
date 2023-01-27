@@ -5,7 +5,7 @@
       placeholder="Select ammo"
       @optionSelected="setBullet"
       @optionDeselected="clear"
-      :searchTerm="initVal"
+      :initVal="initVal"
     />
   </div>
 </template>
