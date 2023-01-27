@@ -34,10 +34,9 @@ export default {
   components: {
     ClearIcon,
   },
-  props: ["options", "placeholder"],
+  props: ["options", "placeholder", "searchTerm"],
   data: function () {
     return {
-      searchTerm: "",
       filteredOptions: [],
       selectedText: "",
     };
@@ -77,7 +76,7 @@ export default {
         that.filteredOptions = [];
       }, 150);
     },
-  },
+  }
 };
 </script>
 

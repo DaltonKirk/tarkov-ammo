@@ -5,6 +5,7 @@
       placeholder="Select ammo"
       @optionSelected="setBullet"
       @optionDeselected="clear"
+      :searchTerm="initVal"
     />
   </div>
 </template>
@@ -16,7 +17,7 @@ export default {
   components: {
     BaseAutocomplete,
   },
-  props: ["bullets", "bulletToCompare"],
+  props: ["bullets", "bulletToCompare", "initVal"],
   data: function () {
     return {
       bullet: null,
@@ -30,8 +31,21 @@ export default {
     clear: function () {
       this.bullet = undefined;
       this.$emit("bulletChange", undefined);
-    }
+    },
   },
+  watch: {
+    bullets: function () {
+      if (this.initVal) {
+        const initBullet = this.bullets.filter(
+          (e) => e.Name.toLowerCase().indexOf(this.initVal.toLowerCase()) != -1
+        );
+        if (initBullet[0]) {
+          this.bullet = initBullet[0];
+          this.$emit("bulletChange", this.bullet);
+        }
+      }
+    }
+  }
 };
 </script>
 

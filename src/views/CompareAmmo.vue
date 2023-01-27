@@ -5,15 +5,16 @@
         :bullets="bullets"
         @bulletChange="bulletChangeLeft"
         :bulletToCompare="bulletRight"
+        :initVal="this.$route.query.left"
       ></BulletSelector>
       <BulletSelector
         :bullets="bullets"
         @bulletChange="bulletChangeRight"
         :bulletToCompare="bulletLeft"
+        :initVal="this.$route.query.right"
       ></BulletSelector>
     </div>
-    <div>
-    </div>
+    <div></div>
     <div>
       <stat-row
         :label="'Flesh damage'"
@@ -149,7 +150,23 @@ export default {
         Armor6: 0,
       },
       bullets: [],
+      queryParamLeft: "",
+      queryParamRight: "",
     };
+  },
+  watch: {
+    bulletLeft: function (val) {
+      this.$router.push({
+        path: this.$route.path,
+        query: { left: val.Name, right: this.$route.query.right },
+      });
+    },
+    bulletRight: function (val) {
+      this.$router.push({
+        path: this.$route.path,
+        query: { left: this.$route.query.left, right: val.Name },
+      });
+    },
   },
   computed: {
     bestFleshDamage() {
@@ -205,18 +222,18 @@ export default {
   },
   methods: {
     bulletChangeLeft: function (bullet) {
-      if (!bullet) { 
-        bullet = this.clearBullet()
+      if (!bullet) {
+        bullet = this.clearBullet();
       }
       this.bulletLeft = bullet;
     },
     bulletChangeRight: function (bullet) {
-      if (!bullet) { 
-        bullet = this.clearBullet()
+      if (!bullet) {
+        bullet = this.clearBullet();
       }
       this.bulletRight = bullet;
     },
-    clearBullet: function () { 
+    clearBullet: function () {
       return {
         FleshDamage: 0,
         PenetrationPower: 0,
@@ -230,8 +247,8 @@ export default {
         Armor4: 0,
         Armor5: 0,
         Armor6: 0,
-      }
-    }
+      };
+    },
   },
   mounted: function () {
     this.bullets = bulletData().bullets;
