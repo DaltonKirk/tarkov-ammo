@@ -89,6 +89,7 @@
         :max-value="6"
       />
     </div>
+    <share-button :url="`https://tarkovammo.com?left=${this.queryParamLeft}&right=${this.queryParamRight}`">Share</share-button>
   </div>
 </template>
 
@@ -96,25 +97,14 @@
 import BulletSelector from "@/components/BulletSelector.vue";
 import bulletData from "@/data/bullet.js";
 import StatRow from "../components/StatRow.vue";
+import ShareButton from '../components/ShareButton.vue';
 
 export default {
   name: "CompareAmmo",
   components: {
     BulletSelector,
     StatRow,
-  },
-
-  metaInfo: {
-    title: "Compare Ammo",
-    titleTemplate: "%s - Tarkov Ammo",
-    meta: [
-      { charset: "utf-8" },
-      {
-        name: "description",
-        content:
-          "Compare Tarkov ammo side by side and determine which ammo is better. View damage differences, accuracy differences, and more.",
-      },
-    ],
+    ShareButton
   },
 
   data: function () {
@@ -159,6 +149,7 @@ export default {
           path: this.$route.path,
           query: { left: val.Name, right: this.$route.query.right },
         });
+        this.queryParamLeft = val.Name;
       }
     },
     bulletRight: function (val) {
@@ -167,6 +158,7 @@ export default {
           path: this.$route.path,
           query: { left: this.$route.query.left, right: val.Name },
         });
+        this.queryParamRight = val.Name;
       }
     },
   },
