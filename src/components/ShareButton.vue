@@ -52,6 +52,7 @@ export default {
 .share-box {
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 
 .share-box__url {
